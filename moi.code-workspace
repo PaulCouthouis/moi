@@ -11,6 +11,6 @@
     "standard.run": "onType",
     "standard.usePackageJson": true,
     "editor.formatOnSave": false,
-    "standard.workingDirectories": ["packages/client"]
+    "standard.workingDirectories": ["packages/client", "packages/core"]
   }
 }
