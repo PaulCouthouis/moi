@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "moi",
+  "version": "1.0.0",
+  "description": "The presentation website of Paul Couthouis",
+  "main": "null",
+  "repository": "https://github.com/PaulCouthouis/moi.git",
+  "author": "Paul Couthouis <paulcouthouis@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {}
+}

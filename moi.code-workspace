@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "standard.autoFixOnSave": true,
+    "standard.engine": "ts-standard",
+    "javascript.validate.enable": false,
+    "standard.run": "onType",
+    "standard.usePackageJson": true,
+    "editor.formatOnSave": false,
+    "standard.workingDirectories": ["packages/client"]
+  }
+}
