@@ -10,5 +10,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "devDependencies": {}
+  "devDependencies": {
+    "ts-standard": "^10.0.0"
+  }
 }
