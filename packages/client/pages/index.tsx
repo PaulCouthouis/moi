@@ -1,6 +1,8 @@
 import Head from 'next/head'
+import { PaulDataBuilder } from '@frontend/core/'
 
 export default function Home (): JSX.Element {
+  const { lastName } = PaulDataBuilder().getMainInformation()
   return (
     <>
       <Head>
@@ -9,7 +11,7 @@ export default function Home (): JSX.Element {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div>Salut visiteur !</div>
+      <div>Salut {lastName} !</div>
     </>
   )
 }

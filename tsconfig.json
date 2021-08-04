@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "strict": true,
+      "declaration": true,
+      "declarationMap": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": "./packages",
+      "types": ["node", "jest"],
+      "paths": {
+        "@frontend/client/*": ["client/*"],
+        "@frontend/core/*": ["core/*"]
+      },
+      "jsx": "preserve"
+    },
+    "exclude": ["node_modules"]
+  }
