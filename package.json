@@ -17,6 +17,10 @@
     "test": "yarn jest",
     "client": "yarn workspace @frontend/client"
   },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
   "devDependencies": {
     "@testing-library/react": "^12.0.0",
     "@types/jest": "^26.0.24",
@@ -25,8 +29,6 @@
     "rimraf": "3.0.2",
     "ts-jest": "^27.0.4",
     "ts-standard": "^10.0.0",
-    "typescript": "^4.3.5",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "typescript": "^4.3.5"
   }
 }

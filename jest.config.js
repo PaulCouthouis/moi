@@ -4,11 +4,11 @@ const { compilerOptions } = require('./tsconfig')
 
 module.exports = {
   preset: 'ts-jest',
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
     prefix: '<rootDir>/packages/'
   }),
   transform: {
-    '^.+\\.tsx?$': 'ts-jest'
+    '^.+\\.(js|ts|tsx)$': 'ts-jest'
   }
 }

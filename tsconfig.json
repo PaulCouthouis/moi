@@ -17,7 +17,7 @@
         "@frontend/client/*": ["client/*"],
         "@frontend/core/*": ["core/*"]
       },
-      "jsx": "preserve"
+      "jsx": "react-jsx"
     },
     "exclude": ["node_modules"]
   }
