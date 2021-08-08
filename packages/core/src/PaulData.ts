@@ -1,10 +1,15 @@
-import { Builder } from './builder.type'
-import { MainInformationBuilder } from './MainInformation/MainInformation'
+import { MainInformationBuilder, MainInformationEntity, MainInformationRepository } from './MainInformation/MainInformation'
 
-interface PaulData {
-  getMainInformation: typeof MainInformationBuilder
+interface PaulDataSelectors {
+  getMainInformation: () => Promise<MainInformationEntity>
 }
 
-export const PaulDataBuilder: Builder<PaulData> = () => ({
-  getMainInformation: MainInformationBuilder
+export interface PaulDataRepository {
+  getMainInformation: MainInformationRepository
+}
+
+export const PaulDataBuilder: (repository: PaulDataRepository) => PaulDataSelectors = (
+  repository: PaulDataRepository
+) => ({
+  getMainInformation: async () => await MainInformationBuilder(repository.getMainInformation)
 })

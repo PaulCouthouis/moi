@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import { PaulDataBuilder } from '@frontend/core/'
+import { MainInformationEntity, PaulDataBuilder, PaulDataInMemory } from '@frontend/core/'
 import { MainInformation } from '../components/MainInformation/MainInformation'
 
-export default function Home (): JSX.Element {
-  const mainInformation = PaulDataBuilder().getMainInformation()
-  const { firstName, lastName, description, job } = mainInformation
+function Home ({ mainInformation }: {
+  mainInformation: MainInformationEntity
+}): JSX.Element {
+  const { firstName, lastName, job, description } = mainInformation
   return (
     <>
       <Head>
@@ -17,3 +18,18 @@ export default function Home (): JSX.Element {
     </>
   )
 }
+
+export async function getStaticProps (): Promise<{
+  props: {
+    mainInformation: MainInformationEntity
+  }
+}> {
+  const paulDataSelectors = PaulDataBuilder(PaulDataInMemory())
+  return {
+    props: {
+      mainInformation: await paulDataSelectors.getMainInformation()
+    }
+  }
+}
+
+export default Home

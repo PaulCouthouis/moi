@@ -1,8 +1,9 @@
-import Home from '../pages'
+import Home, { getStaticProps } from '../pages'
 import renderer from 'react-test-renderer'
 
 describe('Index Page', () => {
-  it('should snapshot', () => {
-    expect(renderer.create(<Home />)).toMatchSnapshot()
+  it('should snapshot', async () => {
+    const { mainInformation } = await (await getStaticProps()).props
+    expect(renderer.create(<Home mainInformation={mainInformation} />)).toMatchSnapshot()
   })
 })
