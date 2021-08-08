@@ -1,17 +1,19 @@
 import Head from 'next/head'
 import { PaulDataBuilder } from '@frontend/core/'
+import { MainInformation } from '../components/MainInformation/MainInformation'
 
 export default function Home (): JSX.Element {
-  const { firstName } = PaulDataBuilder().getMainInformation()
+  const mainInformation = PaulDataBuilder().getMainInformation()
+  const { firstName, lastName, description, job } = mainInformation
   return (
     <>
       <Head>
-        <title>Paul Couthouis - Développeur Front-End</title>
-        <meta name='description' content='Paul Couthouis est un développeur front-end freelance disponible pour des missions' />
+        <title>{firstName} {lastName} - {job}</title>
+        <meta name='description' content={description} />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div>Salut {firstName} !</div>
+      <MainInformation mainInformation={mainInformation} />
     </>
   )
 }

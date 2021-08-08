@@ -1,9 +1,8 @@
-import { render } from '@testing-library/react'
 import Home from '../pages'
+import renderer from 'react-test-renderer'
 
 describe('Index Page', () => {
-  it('should display hello world', () => {
-    const { queryByText } = render(<Home />)
-    expect(queryByText('Salut Paul !')).toBeTruthy()
+  it('should snapshot', () => {
+    expect(renderer.create(<Home />)).toMatchSnapshot()
   })
 })

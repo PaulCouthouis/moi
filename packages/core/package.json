@@ -2,6 +2,6 @@
   "name": "@frontend/core",
   "version": "1.0.0",
   "private": true,
-  "main": "src/PaulData.ts",
+  "main": "src/index.ts",
   "license": "MIT"
 }

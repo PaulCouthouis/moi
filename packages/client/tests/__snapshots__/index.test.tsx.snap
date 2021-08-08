@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index Page should snapshot 1`] = `
+<article
+  className="sc-eCApnc bwnAuW"
+>
+  <header
+    className="sc-efHYUO ernzeX"
+  >
+    Développeur Front-End
+  </header>
+  <h1
+    className="sc-gXfVKN UAOGD"
+  >
+    Paul
+     
+    Couthouis
+  </h1>
+  <p
+    className="sc-eKYRIR irtELk"
+  >
+     
+    Anim do consequat exercitation culpa irure non nulla nisi ad excepteur id labore nostrud. Occaecat nisi dolore labore eu consectetur Lorem exercitation culpa cupidatat elit enim. Ex dolore officia elit sit et in laborum incididunt aliqua. Veniam qui ea nostrud officia dolor.
+     
+  </p>
+</article>
+`;

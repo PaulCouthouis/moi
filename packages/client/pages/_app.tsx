@@ -1,4 +1,5 @@
-import '../styles/globals.css'
+import 'normalize.css'
+import '../public/fonts.css'
 import type { AppProps } from 'next/app'
 
 function MyApp ({ Component, pageProps }: AppProps): JSX.Element {

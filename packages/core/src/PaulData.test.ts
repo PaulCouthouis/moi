@@ -6,7 +6,7 @@ describe('Get the informations about Paul', () => {
       firstName: 'Paul',
       lastName: 'Couthouis',
       job: 'Développeur Front-End',
-      description: 'xxx'
+      description: 'Anim do consequat exercitation culpa irure non nulla nisi ad excepteur id labore nostrud. Occaecat nisi dolore labore eu consectetur Lorem exercitation culpa cupidatat elit enim. Ex dolore officia elit sit et in laborum incididunt aliqua. Veniam qui ea nostrud officia dolor.'
     })
   })
 })
