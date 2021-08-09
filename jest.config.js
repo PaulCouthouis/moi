@@ -9,6 +9,7 @@ module.exports = {
     prefix: '<rootDir>/packages/'
   }),
   transform: {
-    '^.+\\.(js|ts|tsx)$': 'ts-jest'
+    '^.+\\.(js|ts|tsx)$': 'ts-jest',
+    '.+\\.(css|scss|png|jpg|jpeg|svg)$': '<rootDir>/__mocks__/images.js'
   }
 }
