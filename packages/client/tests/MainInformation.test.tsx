@@ -1,5 +1,5 @@
 import renderer from 'react-test-renderer'
-import { MainInformation } from '../components/MainInformation/MainInformation'
+import { MainInformation } from '../components/MainInformation'
 
 describe('Main Information', () => {
   it('should return information of Paul Couthouis', () => {

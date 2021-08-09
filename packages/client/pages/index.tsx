@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { MainInformationEntity, PaulDataBuilder, PaulDataInMemory } from '@frontend/core/'
-import { MainInformation } from '../components/MainInformation/MainInformation'
+import { MainInformation } from '../components/MainInformation'
+import { ProfilePhoto } from '../components/ProfilePhoto'
+import { x } from '@xstyled/styled-components'
 
 function Home ({ mainInformation }: {
   mainInformation: MainInformationEntity
@@ -14,7 +16,10 @@ function Home ({ mainInformation }: {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <MainInformation mainInformation={mainInformation} />
+      <x.section display={{ sm: 'flex' }} bg='#333'>
+        <ProfilePhoto />
+        <MainInformation mainInformation={mainInformation} />
+      </x.section>
     </>
   )
 }
