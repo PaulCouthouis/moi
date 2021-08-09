@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Index Page should snapshot 1`] = `
-Array [
+<section
+  className="sc-bXexck cQUeuo"
+>
   <div
-    className="sc-cxNHIi"
+    className="sc-cxNHIi cwurNK"
   >
     <div
       style={
@@ -100,29 +102,33 @@ Array [
         }
       />
     </div>
-  </div>,
+  </div>
   <article
-    className="sc-eCApnc bwnAuW"
+    className="sc-eCApnc gRlSpJ"
   >
-    <header
-      className="sc-efHYUO ernzeX"
+    <div
+      className="sc-cxNHIi ivfhdD"
     >
-      Développeur Front-End
-    </header>
-    <h1
-      className="sc-gXfVKN UAOGD"
-    >
-      Paul
-       
-      Couthouis
-    </h1>
-    <p
-      className="sc-eKYRIR irtELk"
-    >
-       
-      Anim do consequat exercitation culpa irure non nulla nisi ad excepteur id labore nostrud. Occaecat nisi dolore labore eu consectetur Lorem exercitation culpa cupidatat elit enim. Ex dolore officia elit sit et in laborum incididunt aliqua. Veniam qui ea nostrud officia dolor.
-       
-    </p>
-  </article>,
-]
+      <header
+        className="sc-efHYUO ernzeX"
+      >
+        Développeur Front-End
+      </header>
+      <h1
+        className="sc-gXfVKN UAOGD"
+      >
+        Paul
+         
+        Couthouis
+      </h1>
+      <p
+        className="sc-eKYRIR bpdtUd"
+      >
+         
+        Anim do consequat exercitation culpa irure non nulla nisi ad excepteur id labore nostrud. Occaecat nisi dolore labore eu consectetur Lorem exercitation culpa cupidatat elit enim. Ex dolore officia elit sit et in laborum incididunt aliqua. Veniam qui ea nostrud officia dolor.
+         
+      </p>
+    </div>
+  </article>
+</section>
 `;

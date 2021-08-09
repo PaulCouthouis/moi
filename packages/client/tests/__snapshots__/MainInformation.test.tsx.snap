@@ -2,52 +2,60 @@
 
 exports[`Main Information should return information of John Doe 1`] = `
 <article
-  className="sc-eCApnc bwnAuW"
+  className="sc-eCApnc gRlSpJ"
 >
-  <header
-    className="sc-efHYUO ernzeX"
+  <div
+    className="sc-cxNHIi ivfhdD"
   >
-    Journalist
-  </header>
-  <h1
-    className="sc-gXfVKN UAOGD"
-  >
-    John
-     
-    Doe
-  </h1>
-  <p
-    className="sc-eKYRIR irtELk"
-  >
-     
-    Incididunt do sint elit officia labore minim Lorem officia qui excepteur. Aute dolor excepteur quis culpa esse veniam amet est aute. Cillum ut amet veniam cillum occaecat duis consectetur irure elit eu. Excepteur anim exercitation do commodo elit et nulla consequat ipsum voluptate proident consequat ullamco do. Eu exercitation sint qui anim.
-     
-  </p>
+    <header
+      className="sc-efHYUO ernzeX"
+    >
+      Journalist
+    </header>
+    <h1
+      className="sc-gXfVKN UAOGD"
+    >
+      John
+       
+      Doe
+    </h1>
+    <p
+      className="sc-eKYRIR bpdtUd"
+    >
+       
+      Incididunt do sint elit officia labore minim Lorem officia qui excepteur. Aute dolor excepteur quis culpa esse veniam amet est aute. Cillum ut amet veniam cillum occaecat duis consectetur irure elit eu. Excepteur anim exercitation do commodo elit et nulla consequat ipsum voluptate proident consequat ullamco do. Eu exercitation sint qui anim.
+       
+    </p>
+  </div>
 </article>
 `;
 
 exports[`Main Information should return information of Paul Couthouis 1`] = `
 <article
-  className="sc-eCApnc bwnAuW"
+  className="sc-eCApnc gRlSpJ"
 >
-  <header
-    className="sc-efHYUO ernzeX"
+  <div
+    className="sc-cxNHIi ivfhdD"
   >
-    Développeur Front-End
-  </header>
-  <h1
-    className="sc-gXfVKN UAOGD"
-  >
-    Paul
-     
-    Couthouis
-  </h1>
-  <p
-    className="sc-eKYRIR irtELk"
-  >
-     
-    Lorem elit nostrud sit aute. Velit Lorem incididunt qui consectetur elit sint. Tempor dolore quis et reprehenderit reprehenderit ex cupidatat aliquip duis pariatur dolore aute sit ut.
-     
-  </p>
+    <header
+      className="sc-efHYUO ernzeX"
+    >
+      Développeur Front-End
+    </header>
+    <h1
+      className="sc-gXfVKN UAOGD"
+    >
+      Paul
+       
+      Couthouis
+    </h1>
+    <p
+      className="sc-eKYRIR bpdtUd"
+    >
+       
+      Lorem elit nostrud sit aute. Velit Lorem incididunt qui consectetur elit sint. Tempor dolore quis et reprehenderit reprehenderit ex cupidatat aliquip duis pariatur dolore aute sit ut.
+       
+    </p>
+  </div>
 </article>
 `;
