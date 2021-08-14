@@ -28,6 +28,13 @@ exports[`Main Information should return information of John Doe 1`] = `
       </p>
        
     </div>
+    <a
+      className="sc-bdnxRM cxVKJa"
+      href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
+      target="_blank"
+    >
+      Télécharger mon CV
+    </a>
   </div>
 </article>
 `;
@@ -60,6 +67,13 @@ exports[`Main Information should return information of Paul Couthouis 1`] = `
       </p>
        
     </div>
+    <a
+      className="sc-bdnxRM cxVKJa"
+      href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
+      target="_blank"
+    >
+      Télécharger mon CV
+    </a>
   </div>
 </article>
 `;
