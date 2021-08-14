@@ -1,27 +1,29 @@
 import renderer from 'react-test-renderer'
 import { MainInformation } from '../components/MainInformation'
 
+import { serialize } from 'next-mdx-remote/serialize'
+
 describe('Main Information', () => {
-  it('should return information of Paul Couthouis', () => {
+  it('should return information of Paul Couthouis', async () => {
     expect(renderer.create(
       <MainInformation
         mainInformation={{
           firstName: 'Paul',
           lastName: 'Couthouis',
           job: 'Développeur Front-End',
-          description: 'Lorem elit nostrud sit aute. Velit Lorem incididunt qui consectetur elit sint. Tempor dolore quis et reprehenderit reprehenderit ex cupidatat aliquip duis pariatur dolore aute sit ut.'
+          description: await serialize('test 1')
         }}
       />)
     ).toMatchSnapshot()
   })
-  it('should return information of John Doe', () => {
+  it('should return information of John Doe', async () => {
     expect(renderer.create(
       <MainInformation
         mainInformation={{
           firstName: 'John',
           lastName: 'Doe',
           job: 'Journalist',
-          description: 'Incididunt do sint elit officia labore minim Lorem officia qui excepteur. Aute dolor excepteur quis culpa esse veniam amet est aute. Cillum ut amet veniam cillum occaecat duis consectetur irure elit eu. Excepteur anim exercitation do commodo elit et nulla consequat ipsum voluptate proident consequat ullamco do. Eu exercitation sint qui anim.'
+          description: await serialize('test 2')
         }}
       />)
     ).toMatchSnapshot()

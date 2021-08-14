@@ -19,13 +19,15 @@ exports[`Main Information should return information of John Doe 1`] = `
        
       Doe
     </h1>
-    <p
-      className="sc-eKYRIR bpdtUd"
+    <div
+      className="sc-iIgjPs ercSyr"
     >
        
-      Incididunt do sint elit officia labore minim Lorem officia qui excepteur. Aute dolor excepteur quis culpa esse veniam amet est aute. Cillum ut amet veniam cillum occaecat duis consectetur irure elit eu. Excepteur anim exercitation do commodo elit et nulla consequat ipsum voluptate proident consequat ullamco do. Eu exercitation sint qui anim.
+      <p>
+        test 2
+      </p>
        
-    </p>
+    </div>
   </div>
 </article>
 `;
@@ -49,13 +51,15 @@ exports[`Main Information should return information of Paul Couthouis 1`] = `
        
       Couthouis
     </h1>
-    <p
-      className="sc-eKYRIR bpdtUd"
+    <div
+      className="sc-iIgjPs ercSyr"
     >
        
-      Lorem elit nostrud sit aute. Velit Lorem incididunt qui consectetur elit sint. Tempor dolore quis et reprehenderit reprehenderit ex cupidatat aliquip duis pariatur dolore aute sit ut.
+      <p>
+        test 1
+      </p>
        
-    </p>
+    </div>
   </div>
 </article>
 `;
