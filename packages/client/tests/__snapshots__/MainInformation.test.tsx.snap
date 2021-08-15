@@ -2,18 +2,18 @@
 
 exports[`Main Information should return information of John Doe 1`] = `
 <article
-  className="sc-eCApnc gRlSpJ"
+  className="sc-eCApnc jSiOnL"
 >
   <div
     className="sc-cxNHIi ivfhdD"
   >
     <header
-      className="sc-efHYUO ernzeX"
+      className="sc-efHYUO fpvvik"
     >
       Journalist
     </header>
     <h1
-      className="sc-gXfVKN UAOGD"
+      className="sc-gXfVKN dmdmNL"
     >
       John
        
@@ -41,18 +41,18 @@ exports[`Main Information should return information of John Doe 1`] = `
 
 exports[`Main Information should return information of Paul Couthouis 1`] = `
 <article
-  className="sc-eCApnc gRlSpJ"
+  className="sc-eCApnc jSiOnL"
 >
   <div
     className="sc-cxNHIi ivfhdD"
   >
     <header
-      className="sc-efHYUO ernzeX"
+      className="sc-efHYUO fpvvik"
     >
       Développeur Front-End
     </header>
     <h1
-      className="sc-gXfVKN UAOGD"
+      className="sc-gXfVKN dmdmNL"
     >
       Paul
        

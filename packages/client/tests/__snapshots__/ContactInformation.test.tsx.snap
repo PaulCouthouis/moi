@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Information should return contact information of John Doe 1`] = `
+<address
+  className="sc-dlnjwi kpxgOy"
+>
+  <h2
+    className="sc-cBoqAE eiBWXX"
+  >
+    Contact
+  </h2>
+  <div
+    className="sc-cxNHIi lfKzke"
+  >
+    <div
+      className="sc-cxNHIi gGlrBh"
+    >
+      <span
+        className="sc-bsatvv fEgCuu lnr lnr-envelope"
+      />
+      <p
+        className="sc-eKYRIR fzCYPY"
+      >
+        xxx@yopmail.com
+      </p>
+    </div>
+    <div
+      className="sc-cxNHIi gGlrBh"
+    >
+      <span
+        className="sc-bsatvv fEgCuu lnr lnr-smartphone"
+      />
+      <p
+        className="sc-eKYRIR fzCYPY"
+      >
+        +8180123456
+      </p>
+    </div>
+    <div
+      className="sc-cxNHIi gGlrBh"
+    >
+      <span
+        className="sc-bsatvv fEgCuu lnr lnr-map-marker"
+      />
+      <p
+        className="sc-eKYRIR fzCYPY"
+      >
+        Los Angeles
+      </p>
+    </div>
+    <div
+      className="sc-cxNHIi gGlrBh"
+    >
+      <span
+        className="sc-bsatvv fEgCuu lnr lnr-power-switch"
+      />
+      <p
+        className="sc-eKYRIR fzCYPY"
+      >
+        Disponible le 15/07/2023
+      </p>
+    </div>
+  </div>
+</address>
+`;
+
+exports[`Contact Information should return contact information of Paul Couthouis 1`] = `
+<address
+  className="sc-dlnjwi kpxgOy"
+>
+  <h2
+    className="sc-cBoqAE eiBWXX"
+  >
+    Contact
+  </h2>
+  <div
+    className="sc-cxNHIi lfKzke"
+  >
+    <div
+      className="sc-cxNHIi gGlrBh"
+    >
+      <span
+        className="sc-bsatvv fEgCuu lnr lnr-envelope"
+      />
+      <p
+        className="sc-eKYRIR fzCYPY"
+      >
+        paulcouthouis@gmail.com
+      </p>
+    </div>
+    <div
+      className="sc-cxNHIi gGlrBh"
+    >
+      <span
+        className="sc-bsatvv fEgCuu lnr lnr-smartphone"
+      />
+      <p
+        className="sc-eKYRIR fzCYPY"
+      >
+        +818075553894
+      </p>
+    </div>
+    <div
+      className="sc-cxNHIi gGlrBh"
+    >
+      <span
+        className="sc-bsatvv fEgCuu lnr lnr-map-marker"
+      />
+      <p
+        className="sc-eKYRIR fzCYPY"
+      >
+        Kyoto
+      </p>
+    </div>
+    <div
+      className="sc-cxNHIi gGlrBh"
+    >
+      <span
+        className="sc-bsatvv fEgCuu lnr lnr-power-switch"
+      />
+      <p
+        className="sc-eKYRIR fzCYPY"
+      >
+        Disponible le 03/01/2022
+      </p>
+    </div>
+  </div>
+</address>
+`;

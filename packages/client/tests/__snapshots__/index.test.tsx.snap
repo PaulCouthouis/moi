@@ -1,55 +1,86 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Index Page should snapshot 1`] = `
-<section
-  className="sc-bXexck cQUeuo"
+<span
+  className="sc-bsatvv glYklu"
 >
-  <div
-    className="sc-cxNHIi cwurNK"
+  <section
+    className="sc-bXexck cQUeuo"
   >
     <div
-      style={
-        Object {
-          "boxSizing": "border-box",
-          "display": "inline-block",
-          "margin": 0,
-          "maxWidth": "100%",
-          "overflow": "hidden",
-          "position": "relative",
-        }
-      }
+      className="sc-cxNHIi cwurNK"
     >
       <div
         style={
           Object {
             "boxSizing": "border-box",
-            "display": "block",
+            "display": "inline-block",
+            "margin": 0,
             "maxWidth": "100%",
+            "overflow": "hidden",
+            "position": "relative",
           }
         }
       >
-        <img
-          alt=""
-          aria-hidden={true}
-          role="presentation"
-          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzE4IiBoZWlnaHQ9IjEwODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+        <div
           style={
             Object {
-              "border": "none",
+              "boxSizing": "border-box",
               "display": "block",
-              "margin": 0,
               "maxWidth": "100%",
-              "padding": 0,
             }
           }
-        />
-      </div>
-      <noscript>
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            role="presentation"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzE4IiBoZWlnaHQ9IjEwODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+            style={
+              Object {
+                "border": "none",
+                "display": "block",
+                "margin": 0,
+                "maxWidth": "100%",
+                "padding": 0,
+              }
+            }
+          />
+        </div>
+        <noscript>
+          <img
+            alt="Photo de profile"
+            decoding="async"
+            src="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75"
+            srcSet="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=750&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
         <img
           alt="Photo de profile"
           decoding="async"
-          src="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75"
-          srcSet="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=750&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75 2x"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
           style={
             Object {
               "border": "none",
@@ -73,77 +104,111 @@ exports[`Index Page should snapshot 1`] = `
             }
           }
         />
-      </noscript>
-      <img
-        alt="Photo de profile"
-        decoding="async"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-        style={
-          Object {
-            "border": "none",
-            "bottom": 0,
-            "boxSizing": "border-box",
-            "display": "block",
-            "height": 0,
-            "left": 0,
-            "margin": "auto",
-            "maxHeight": "100%",
-            "maxWidth": "100%",
-            "minHeight": "100%",
-            "minWidth": "100%",
-            "objectFit": undefined,
-            "objectPosition": undefined,
-            "padding": 0,
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-            "width": 0,
-          }
-        }
-      />
-    </div>
-  </div>
-  <article
-    className="sc-eCApnc gRlSpJ"
-  >
-    <div
-      className="sc-cxNHIi ivfhdD"
-    >
-      <header
-        className="sc-efHYUO ernzeX"
-      >
-        Développeur Front-End
-      </header>
-      <h1
-        className="sc-gXfVKN UAOGD"
-      >
-        Paul
-         
-        Couthouis
-      </h1>
-      <div
-        className="sc-iIgjPs ercSyr"
-      >
-         
-        <p>
-          Bonjour et bienvenue !
-        </p>
-        <p>
-          Freelance depuis 2013, je suis un vrai passionné du développement. J'aime le travail bien fait et les applications abouties sans bug, ni dette techniques.
-        </p>
-        <p>
-          Si vous êtes à la recherche d'un développeur consciencieux, méthodique et toujours à l'écoute du client, n'hésitez pas à parcourir mon profil à travers ce site et pourquoi pas me contacter par e-mail. Bonne visite :)
-        </p>
-         
       </div>
-      <a
-        className="sc-bdnxRM cxVKJa"
-        href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
-        target="_blank"
-      >
-        Télécharger mon CV
-      </a>
     </div>
-  </article>
-</section>
+    <article
+      className="sc-eCApnc jSiOnL"
+    >
+      <div
+        className="sc-cxNHIi ivfhdD"
+      >
+        <header
+          className="sc-efHYUO fpvvik"
+        >
+          Développeur Front-End
+        </header>
+        <h1
+          className="sc-gXfVKN dmdmNL"
+        >
+          Paul
+           
+          Couthouis
+        </h1>
+        <div
+          className="sc-iIgjPs ercSyr"
+        >
+           
+          <p>
+            Bonjour et bienvenue !
+          </p>
+          <p>
+            Freelance depuis 2013, je suis un vrai passionné du développement. J'aime le travail bien fait et les applications abouties sans bug, ni dette techniques.
+          </p>
+          <p>
+            Si vous êtes à la recherche d'un développeur consciencieux, méthodique et toujours à l'écoute du client, n'hésitez pas à parcourir mon profil à travers ce site et pourquoi pas me contacter par e-mail. Bonne visite :)
+          </p>
+           
+        </div>
+        <a
+          className="sc-bdnxRM cxVKJa"
+          href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
+          target="_blank"
+        >
+          Télécharger mon CV
+        </a>
+      </div>
+    </article>
+  </section>
+  <address
+    className="sc-dlnjwi kpxgOy"
+  >
+    <h2
+      className="sc-cBoqAE eiBWXX"
+    >
+      Contact
+    </h2>
+    <div
+      className="sc-cxNHIi lfKzke"
+    >
+      <div
+        className="sc-cxNHIi gGlrBh"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-envelope"
+        />
+        <p
+          className="sc-eKYRIR fzCYPY"
+        >
+          paulcouthouis@gmail.com
+        </p>
+      </div>
+      <div
+        className="sc-cxNHIi gGlrBh"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-smartphone"
+        />
+        <p
+          className="sc-eKYRIR fzCYPY"
+        >
+          +81 80 7555 3894
+        </p>
+      </div>
+      <div
+        className="sc-cxNHIi gGlrBh"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-map-marker"
+        />
+        <p
+          className="sc-eKYRIR fzCYPY"
+        >
+          Kyoto
+        </p>
+      </div>
+      <div
+        className="sc-cxNHIi gGlrBh"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-power-switch"
+        />
+        <p
+          className="sc-eKYRIR fzCYPY"
+        >
+          Disponible le 03/01/2022
+        </p>
+      </div>
+    </div>
+  </address>
+</span>
 `;
