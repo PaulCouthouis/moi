@@ -11,7 +11,7 @@ describe('Contact Information', () => {
           mainCity: 'Kyoto',
           secondCity: 'Paris',
           mail: 'paulcouthouis@gmail.com',
-          dateAvailable: new Date('2022-01-03T00:00:00.000Z'),
+          dateAvailable: '2022-01-03T00:00:00.000Z',
           isAvailable: false
         }}
       />
@@ -26,7 +26,7 @@ describe('Contact Information', () => {
           mainCity: 'Los Angeles',
           secondCity: 'Shangai',
           mail: 'xxx@yopmail.com',
-          dateAvailable: new Date('2023-07-15T00:00:00.000Z'),
+          dateAvailable: '2023-07-15T00:00:00.000Z',
           isAvailable: false
         }}
       />

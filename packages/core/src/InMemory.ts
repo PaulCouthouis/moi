@@ -21,5 +21,24 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
     mail: 'paulcouthouis@gmail.com',
     dateAvailable: new Date('2022-01-03T00:00:00.000Z'),
     isAvailable: false
-  })
+  }),
+
+  getMethodsInformation: async () => await Promise.resolve([
+    {
+      title: 'Test-Driven Development',
+      description: 'Le TDD c\'est la meilleur manière de produire du code sans dette, sans bug, avec un design optimisé, une couverture de test complète'
+    },
+    {
+      title: 'Hexagonal Architecture',
+      description: 'Pour un produit très peu dépendant des choix techniques, l\'Hexagonal Architecture permet d\'isoler le code métier, soit le coeur de votre application. C\'est la garantie de faire évoluer votre produit dans le temps.'
+    },
+    {
+      title: 'Design Fonctionnel',
+      description: 'Un développeur n\'est pas seulement un codeur. Ensemble, conceptualisons la meilleur application en fonction des besoins réels du client'
+    },
+    {
+      title: 'Intégration continue',
+      description: 'Un des grands principes de l\'agilité, livrons notre application par petit bout de fonctionnalité et ainsi lui donner de la valeur.'
+    }
+  ])
 })
