@@ -5,7 +5,7 @@ export const MethodsInformation: React.FC<{
   methodsInformation: MethodInformationEntity[]
 }> = ({ methodsInformation }) => {
   const articleItems = methodsInformation.map(({ title, icon, description }, i) => (
-    <x.article key={i} maxWidth={{ md: 'calc(50% - 10px)' }} m='10px 10px 10px 0' display='flex'>
+    <x.article key={i} maxWidth={{ md: 'calc(50% - 10px)', '2xl': 'calc(25% - 10px)' }} m='10px 10px 10px 0' display='flex'>
       <x.div marginRight={25}>
         <x.span className={`lnr lnr-${icon}`} fontSize={40} color='#b5b5b5' />
       </x.div>
