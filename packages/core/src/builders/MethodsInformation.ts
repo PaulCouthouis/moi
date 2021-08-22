@@ -2,6 +2,7 @@ import { Builder, DataBuilder, Repository } from './_builder'
 
 export interface MethodInformationEntity {
   title: string
+  icon: string
   description: string
 }
 
