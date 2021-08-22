@@ -10,7 +10,7 @@ exports[`Methods Information should return methods information of John Doe 1`] =
     Ma Méthodologie
   </h2>
   <div
-    className="sc-cxNHIi iUxara"
+    className="sc-cxNHIi eiFhon"
   >
     <article
       className="sc-eCApnc jppa-DQ"
@@ -31,7 +31,7 @@ exports[`Methods Information should return methods information of John Doe 1`] =
           Title 1
         </h3>
         <p
-          className="sc-eKYRIR bvRgFQ"
+          className="sc-eKYRIR dJHtdu"
         >
           description 1
         </p>
@@ -56,7 +56,7 @@ exports[`Methods Information should return methods information of John Doe 1`] =
           Title 2
         </h3>
         <p
-          className="sc-eKYRIR bvRgFQ"
+          className="sc-eKYRIR dJHtdu"
         >
           description 2
         </p>
@@ -76,7 +76,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
     Ma Méthodologie
   </h2>
   <div
-    className="sc-cxNHIi iUxara"
+    className="sc-cxNHIi eiFhon"
   >
     <article
       className="sc-eCApnc jppa-DQ"
@@ -97,7 +97,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
           Test-Driven Development
         </h3>
         <p
-          className="sc-eKYRIR bvRgFQ"
+          className="sc-eKYRIR dJHtdu"
         >
           Le TDD c'est la meilleur manière de produire du code sans dette, sans bug, avec un design optimisé, une couverture de test complète
         </p>
@@ -122,7 +122,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
           Hexagonal Architecture
         </h3>
         <p
-          className="sc-eKYRIR bvRgFQ"
+          className="sc-eKYRIR dJHtdu"
         >
           Pour un produit très peu dépendant des choix techniques, l'Hexagonal Architecture permet d'isoler le code métier, soit le coeur de votre application. C'est la garantie de faire évoluer votre produit dans le temps.
         </p>
@@ -147,7 +147,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
           Design Fonctionnel
         </h3>
         <p
-          className="sc-eKYRIR bvRgFQ"
+          className="sc-eKYRIR dJHtdu"
         >
           Un développeur n'est pas seulement un codeur. Ensemble, conceptualisons la meilleur application en fonction des besoins réels du client
         </p>
@@ -172,7 +172,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
           Intégration continue
         </h3>
         <p
-          className="sc-eKYRIR bvRgFQ"
+          className="sc-eKYRIR dJHtdu"
         >
           Un des grands principes de l'agilité, livrons notre application par petit bout de fonctionnalité et ainsi lui donner de la valeur.
         </p>

@@ -158,7 +158,7 @@ exports[`Index Page should snapshot 1`] = `
       Ma Méthodologie
     </h2>
     <div
-      className="sc-cxNHIi iUxara"
+      className="sc-cxNHIi eiFhon"
     >
       <article
         className="sc-eCApnc jppa-DQ"
@@ -179,7 +179,7 @@ exports[`Index Page should snapshot 1`] = `
             Test-Driven Development
           </h3>
           <p
-            className="sc-eKYRIR bvRgFQ"
+            className="sc-eKYRIR dJHtdu"
           >
             Le TDD c'est la meilleur manière de produire du code sans dette, sans bug, avec un design optimisé et une couverture de test complète
           </p>
@@ -204,7 +204,7 @@ exports[`Index Page should snapshot 1`] = `
             Hexagonal Architecture
           </h3>
           <p
-            className="sc-eKYRIR bvRgFQ"
+            className="sc-eKYRIR dJHtdu"
           >
             Pour un produit très peu dépendant des choix techniques, l'Hexagonal Architecture permet d'isoler le code métier, soit le coeur de votre application. C'est la garantie de faire évoluer votre produit dans le temps.
           </p>
@@ -229,7 +229,7 @@ exports[`Index Page should snapshot 1`] = `
             Design Fonctionnel
           </h3>
           <p
-            className="sc-eKYRIR bvRgFQ"
+            className="sc-eKYRIR dJHtdu"
           >
             Un développeur n'est pas seulement un codeur. Ensemble, conceptualisons la meilleur application en fonction des réels besoins.
           </p>
@@ -254,7 +254,7 @@ exports[`Index Page should snapshot 1`] = `
             Intégration continue
           </h3>
           <p
-            className="sc-eKYRIR bvRgFQ"
+            className="sc-eKYRIR dJHtdu"
           >
             Un des grands principes de l'agilité, livrons notre application au fil du temps par petit bout de fonctionnalité et ainsi lui donner de la valeur rapidement.
           </p>
