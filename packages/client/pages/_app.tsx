@@ -14,6 +14,7 @@ function MyApp ({ Component, pageProps }: AppProps): JSX.Element {
     ...defaultTheme,
     screens: {
       ...defaultTheme.screens,
+      xxs: 375,
       xs: 480
     }
   }

@@ -27,7 +27,7 @@ const IconLabelBlock: React.FC<{label: string, icon: string}> = ({ label, icon }
 export const ContactInformation: React.FC<{ contactInformation: ContactInformationSerializeResult}> = ({ contactInformation }) => {
   const { mainPhone, mainCity, mail, dateAvailable } = contactInformation
   return (
-    <x.address bg='#222' p='25px 30px 60px'>
+    <x.address bg='#222' p='25px 30px 60px' marginTop='10px'>
       <x.h2
         marginBottom='40px'
         paddingBottom='5px'

@@ -1,20 +1,23 @@
 import Head from 'next/head'
-import { PaulDataBuilder, PaulDataInMemory } from '@frontend/core/'
+import { MethodInformationEntity, PaulDataBuilder, PaulDataInMemory } from '@frontend/core/'
 import { MainInformation, MainInformationSerializeResult } from '../components/MainInformation'
 import { ProfilePhoto } from '../components/ProfilePhoto'
 import { x } from '@xstyled/styled-components'
 import { serialize } from 'next-mdx-remote/serialize'
 import { ContactInformation, ContactInformationSerializeResult } from '../components/ContactInformation'
+import { MethodsInformation } from '../components/MethodsInformation'
 
 interface HomeProps {
   mainInformation: MainInformationSerializeResult
   contactInformation: ContactInformationSerializeResult
+  methodsInformation: MethodInformationEntity[]
 }
 
-function Home ({ mainInformation, contactInformation }: HomeProps): JSX.Element {
+function Home ({ mainInformation, contactInformation, methodsInformation }: HomeProps): JSX.Element {
   const { firstName, lastName, job } = mainInformation
   return (
-    <x.span
+    <x.div
+      bg='#000'
       color='#f5f5f5'
       fontFamily='Poppins, Helvetica, sans-serif'
     >
@@ -30,8 +33,9 @@ function Home ({ mainInformation, contactInformation }: HomeProps): JSX.Element 
         <ProfilePhoto />
         <MainInformation mainInformation={mainInformation} />
       </x.section>
+      <MethodsInformation methodsInformation={methodsInformation} />
       <ContactInformation contactInformation={contactInformation} />
-    </x.span>
+    </x.div>
   )
 }
 
@@ -51,7 +55,8 @@ export async function getStaticProps (): Promise<{
       contactInformation: {
         ...contactInformation,
         dateAvailable: contactInformation.dateAvailable.toISOString()
-      }
+      },
+      methodsInformation: await paulDataSelectors.getMethodsInformation()
     }
   }
 }

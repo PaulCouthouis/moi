@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Methods Information should return methods information of John Doe 1`] = `
+<section
+  className="sc-bXexck bUZuQE"
+>
+  <h2
+    className="sc-cBoqAE dLXmhc"
+  >
+    Ma Méthodologie
+  </h2>
+  <div
+    className="sc-cxNHIi iUxara"
+  >
+    <article
+      className="sc-eCApnc jppa-DQ"
+    >
+      <div
+        className="sc-cxNHIi fAVimU"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+        />
+      </div>
+      <div
+        className="sc-cxNHIi"
+      >
+        <h3
+          className="sc-ciSkZP hSvhzA"
+        >
+          Title 1
+        </h3>
+        <p
+          className="sc-eKYRIR bvRgFQ"
+        >
+          description 1
+        </p>
+      </div>
+    </article>
+    <article
+      className="sc-eCApnc jppa-DQ"
+    >
+      <div
+        className="sc-cxNHIi fAVimU"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+        />
+      </div>
+      <div
+        className="sc-cxNHIi"
+      >
+        <h3
+          className="sc-ciSkZP hSvhzA"
+        >
+          Title 2
+        </h3>
+        <p
+          className="sc-eKYRIR bvRgFQ"
+        >
+          description 2
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+`;
+
+exports[`Methods Information should return methods information of Paul Couthouis 1`] = `
+<section
+  className="sc-bXexck bUZuQE"
+>
+  <h2
+    className="sc-cBoqAE dLXmhc"
+  >
+    Ma Méthodologie
+  </h2>
+  <div
+    className="sc-cxNHIi iUxara"
+  >
+    <article
+      className="sc-eCApnc jppa-DQ"
+    >
+      <div
+        className="sc-cxNHIi fAVimU"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+        />
+      </div>
+      <div
+        className="sc-cxNHIi"
+      >
+        <h3
+          className="sc-ciSkZP hSvhzA"
+        >
+          Test-Driven Development
+        </h3>
+        <p
+          className="sc-eKYRIR bvRgFQ"
+        >
+          Le TDD c'est la meilleur manière de produire du code sans dette, sans bug, avec un design optimisé, une couverture de test complète
+        </p>
+      </div>
+    </article>
+    <article
+      className="sc-eCApnc jppa-DQ"
+    >
+      <div
+        className="sc-cxNHIi fAVimU"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+        />
+      </div>
+      <div
+        className="sc-cxNHIi"
+      >
+        <h3
+          className="sc-ciSkZP hSvhzA"
+        >
+          Hexagonal Architecture
+        </h3>
+        <p
+          className="sc-eKYRIR bvRgFQ"
+        >
+          Pour un produit très peu dépendant des choix techniques, l'Hexagonal Architecture permet d'isoler le code métier, soit le coeur de votre application. C'est la garantie de faire évoluer votre produit dans le temps.
+        </p>
+      </div>
+    </article>
+    <article
+      className="sc-eCApnc jppa-DQ"
+    >
+      <div
+        className="sc-cxNHIi fAVimU"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+        />
+      </div>
+      <div
+        className="sc-cxNHIi"
+      >
+        <h3
+          className="sc-ciSkZP hSvhzA"
+        >
+          Design Fonctionnel
+        </h3>
+        <p
+          className="sc-eKYRIR bvRgFQ"
+        >
+          Un développeur n'est pas seulement un codeur. Ensemble, conceptualisons la meilleur application en fonction des besoins réels du client
+        </p>
+      </div>
+    </article>
+    <article
+      className="sc-eCApnc jppa-DQ"
+    >
+      <div
+        className="sc-cxNHIi fAVimU"
+      >
+        <span
+          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+        />
+      </div>
+      <div
+        className="sc-cxNHIi"
+      >
+        <h3
+          className="sc-ciSkZP hSvhzA"
+        >
+          Intégration continue
+        </h3>
+        <p
+          className="sc-eKYRIR bvRgFQ"
+        >
+          Un des grands principes de l'agilité, livrons notre application par petit bout de fonctionnalité et ainsi lui donner de la valeur.
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+`;

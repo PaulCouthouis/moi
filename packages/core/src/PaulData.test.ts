@@ -9,7 +9,7 @@ describe('Get the informations about Paul', () => {
       lastName: 'Couthouis',
       job: 'Développeur Front-End',
       description:
-`Bonjour et bienvenue !
+        `Bonjour et bienvenue !
 
 Freelance depuis 2013, je suis un vrai passionné du développement. J'aime le travail bien fait et les applications abouties sans bug, ni dette techniques.
 
@@ -27,5 +27,32 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
       dateAvailable: new Date('2022-01-03T00:00:00.000Z'),
       isAvailable: false
     })
+  })
+
+  it('should return the methods informations', async () => {
+    console.log(await paulData.getMethodsInformation())
+
+    expect(await paulData.getMethodsInformation()).toStrictEqual([
+      {
+        title: 'Test-Driven Development',
+        icon: 'keyboard',
+        description: 'Le TDD c\'est la meilleur manière de produire du code sans dette, sans bug, avec un design optimisé et une couverture de test complète'
+      },
+      {
+        title: 'Hexagonal Architecture',
+        icon: 'diamond',
+        description: 'Pour un produit très peu dépendant des choix techniques, l\'Hexagonal Architecture permet d\'isoler le code métier, soit le coeur de votre application. C\'est la garantie de faire évoluer votre produit dans le temps.'
+      },
+      {
+        title: 'Design Fonctionnel',
+        icon: 'bubble',
+        description: 'Un développeur n\'est pas seulement un codeur. Ensemble, conceptualisons la meilleur application en fonction des réels besoins.'
+      },
+      {
+        title: 'Intégration continue',
+        icon: 'sync',
+        description: 'Un des grands principes de l\'agilité, livrons notre application au fil du temps par petit bout de fonctionnalité et ainsi lui donner de la valeur rapidement.'
+      }
+    ])
   })
 })

@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Index Page should snapshot 1`] = `
-<span
-  className="sc-bsatvv glYklu"
+<div
+  className="sc-cxNHIi kwZVzH"
 >
   <section
     className="sc-bXexck cQUeuo"
@@ -149,8 +149,121 @@ exports[`Index Page should snapshot 1`] = `
       </div>
     </article>
   </section>
+  <section
+    className="sc-bXexck bUZuQE"
+  >
+    <h2
+      className="sc-cBoqAE dLXmhc"
+    >
+      Ma Méthodologie
+    </h2>
+    <div
+      className="sc-cxNHIi iUxara"
+    >
+      <article
+        className="sc-eCApnc jppa-DQ"
+      >
+        <div
+          className="sc-cxNHIi fAVimU"
+        >
+          <span
+            className="sc-bsatvv fEgCuu lnr lnr-keyboard"
+          />
+        </div>
+        <div
+          className="sc-cxNHIi"
+        >
+          <h3
+            className="sc-ciSkZP hSvhzA"
+          >
+            Test-Driven Development
+          </h3>
+          <p
+            className="sc-eKYRIR bvRgFQ"
+          >
+            Le TDD c'est la meilleur manière de produire du code sans dette, sans bug, avec un design optimisé et une couverture de test complète
+          </p>
+        </div>
+      </article>
+      <article
+        className="sc-eCApnc jppa-DQ"
+      >
+        <div
+          className="sc-cxNHIi fAVimU"
+        >
+          <span
+            className="sc-bsatvv fEgCuu lnr lnr-diamond"
+          />
+        </div>
+        <div
+          className="sc-cxNHIi"
+        >
+          <h3
+            className="sc-ciSkZP hSvhzA"
+          >
+            Hexagonal Architecture
+          </h3>
+          <p
+            className="sc-eKYRIR bvRgFQ"
+          >
+            Pour un produit très peu dépendant des choix techniques, l'Hexagonal Architecture permet d'isoler le code métier, soit le coeur de votre application. C'est la garantie de faire évoluer votre produit dans le temps.
+          </p>
+        </div>
+      </article>
+      <article
+        className="sc-eCApnc jppa-DQ"
+      >
+        <div
+          className="sc-cxNHIi fAVimU"
+        >
+          <span
+            className="sc-bsatvv fEgCuu lnr lnr-bubble"
+          />
+        </div>
+        <div
+          className="sc-cxNHIi"
+        >
+          <h3
+            className="sc-ciSkZP hSvhzA"
+          >
+            Design Fonctionnel
+          </h3>
+          <p
+            className="sc-eKYRIR bvRgFQ"
+          >
+            Un développeur n'est pas seulement un codeur. Ensemble, conceptualisons la meilleur application en fonction des réels besoins.
+          </p>
+        </div>
+      </article>
+      <article
+        className="sc-eCApnc jppa-DQ"
+      >
+        <div
+          className="sc-cxNHIi fAVimU"
+        >
+          <span
+            className="sc-bsatvv fEgCuu lnr lnr-sync"
+          />
+        </div>
+        <div
+          className="sc-cxNHIi"
+        >
+          <h3
+            className="sc-ciSkZP hSvhzA"
+          >
+            Intégration continue
+          </h3>
+          <p
+            className="sc-eKYRIR bvRgFQ"
+          >
+            Un des grands principes de l'agilité, livrons notre application au fil du temps par petit bout de fonctionnalité et ainsi lui donner de la valeur rapidement.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
   <address
-    className="sc-dlnjwi kpxgOy"
+    className="sc-dlnjwi fdHlYq"
   >
     <h2
       className="sc-cBoqAE eiBWXX"
@@ -210,5 +323,5 @@ exports[`Index Page should snapshot 1`] = `
       </div>
     </div>
   </address>
-</span>
+</div>
 `;
