@@ -44,5 +44,100 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
       icon: 'sync',
       description: 'Un des grands principes de l\'agilité, livrons notre application au fil du temps par petit bout de fonctionnalité et ainsi lui donner de la valeur rapidement.'
     }
+  ]),
+
+  getTechnicalSkills: async () => await Promise.resolve([
+    {
+      title: 'Langage de programmations',
+      skills: [
+        {
+          name: 'HTML / (S)CSS',
+          value: 95
+        },
+        {
+          name: 'Javascript',
+          value: 90
+        },
+        {
+          name: 'Typescript',
+          value: 80
+        },
+        {
+          name: 'PHP',
+          value: 50
+        },
+        {
+          name: 'Java',
+          value: 20
+        },
+        {
+          name: 'C#',
+          value: 20
+        }
+      ]
+    },
+    {
+      title: 'Framework JS',
+      skills: [
+        {
+          name: 'Angular',
+          value: 90
+        },
+        {
+          name: 'React (+ Next)',
+          value: 70
+        },
+        {
+          name: 'Vue',
+          value: 50
+        },
+        {
+          name: 'Svelte',
+          value: 50
+        }
+      ]
+    },
+    {
+      title: 'Autres librairies JS',
+      skills: [
+        {
+          name: 'Jest',
+          value: 90
+        },
+        {
+          name: 'RxJS',
+          value: 75
+        },
+        {
+          name: 'Cucumber',
+          value: 75
+        },
+        {
+          name: 'Cypress',
+          value: 75
+        }
+      ]
+    },
+    {
+      title: 'Versionning, Intégration continue',
+      skills: [
+        {
+          name: 'Git',
+          value: 95
+        },
+        {
+          name: 'Circle CI',
+          value: 70
+        },
+        {
+          name: 'Github Action',
+          value: 50
+        },
+        {
+          name: 'Jenkins',
+          value: 20
+        }
+      ]
+    }
   ])
 })

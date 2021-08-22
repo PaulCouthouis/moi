@@ -1,17 +1,20 @@
 import { ContactInformationBuilder, ContactInformationEntity, ContactInformationRepository } from './builders/ContactInformation'
 import { MainInformationBuilder, MainInformationEntity, MainInformationRepository } from './builders/MainInformation'
 import { MethodsInformationBuilder, MethodInformationEntity, MethodsInformationRepository } from './builders/MethodsInformation'
+import { TechnicalSkillsBuilder, TechnicalSkillsEntity, TechnicalSkillsRepository } from './builders/TechnicalSkills'
 
 interface PaulDataSelectors {
   getMainInformation: () => Promise<MainInformationEntity>
-  getContactInformation: () => Promise<ContactInformationEntity>
   getMethodsInformation: () => Promise<MethodInformationEntity[]>
+  getTechnicalSkills: () => Promise<TechnicalSkillsEntity[]>
+  getContactInformation: () => Promise<ContactInformationEntity>
 }
 
 export interface PaulDataRepository {
-  getContactInformation: ContactInformationRepository
   getMainInformation: MainInformationRepository
   getMethodsInformation: MethodsInformationRepository
+  getTechnicalSkills: TechnicalSkillsRepository
+  getContactInformation: ContactInformationRepository
 }
 
 export const PaulDataBuilder: (repository: PaulDataRepository) => PaulDataSelectors = (
@@ -19,5 +22,6 @@ export const PaulDataBuilder: (repository: PaulDataRepository) => PaulDataSelect
 ) => ({
   getMainInformation: async () => await MainInformationBuilder(repository.getMainInformation),
   getContactInformation: async () => await ContactInformationBuilder(repository.getContactInformation),
-  getMethodsInformation: async (): Promise<MethodInformationEntity[]> => await MethodsInformationBuilder(repository.getMethodsInformation)
+  getMethodsInformation: async () => await MethodsInformationBuilder(repository.getMethodsInformation),
+  getTechnicalSkills: async () => await TechnicalSkillsBuilder(repository.getTechnicalSkills)
 })
