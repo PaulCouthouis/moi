@@ -1,19 +1,26 @@
 import Head from 'next/head'
-import { MethodInformationEntity, PaulDataBuilder, PaulDataInMemory } from '@frontend/core/'
+import { MethodInformationEntity, PaulDataBuilder, PaulDataInMemory, TechnicalSkillsEntity } from '@frontend/core/'
 import { MainInformation, MainInformationSerializeResult } from '../components/MainInformation'
 import { ProfilePhoto } from '../components/ProfilePhoto'
 import { x } from '@xstyled/styled-components'
 import { serialize } from 'next-mdx-remote/serialize'
 import { ContactInformation, ContactInformationSerializeResult } from '../components/ContactInformation'
 import { MethodsInformation } from '../components/MethodsInformation'
+import { ResumeInformation } from '../components/ResumeInformation'
 
 interface HomeProps {
   mainInformation: MainInformationSerializeResult
-  contactInformation: ContactInformationSerializeResult
   methodsInformation: MethodInformationEntity[]
+  technicalSkills: TechnicalSkillsEntity[]
+  contactInformation: ContactInformationSerializeResult
 }
 
-function Home ({ mainInformation, contactInformation, methodsInformation }: HomeProps): JSX.Element {
+function Home ({
+  mainInformation,
+  methodsInformation,
+  technicalSkills,
+  contactInformation
+}: HomeProps): JSX.Element {
   const { firstName, lastName, job } = mainInformation
   return (
     <x.div
@@ -34,6 +41,7 @@ function Home ({ mainInformation, contactInformation, methodsInformation }: Home
         <MainInformation mainInformation={mainInformation} />
       </x.section>
       <MethodsInformation methodsInformation={methodsInformation} />
+      <ResumeInformation technicalSkills={technicalSkills} />
       <ContactInformation contactInformation={contactInformation} />
     </x.div>
   )
@@ -52,11 +60,12 @@ export async function getStaticProps (): Promise<{
         ...mainInformation,
         description: await serialize(mainInformation.description)
       },
+      methodsInformation: await paulDataSelectors.getMethodsInformation(),
+      technicalSkills: await paulDataSelectors.getTechnicalSkills(),
       contactInformation: {
         ...contactInformation,
         dateAvailable: contactInformation.dateAvailable.toISOString()
-      },
-      methodsInformation: await paulDataSelectors.getMethodsInformation()
+      }
     }
   }
 }

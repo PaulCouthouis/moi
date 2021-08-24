@@ -57,7 +57,7 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
   it('should return the technical skills', async () => {
     expect(await paulData.getTechnicalSkills()).toStrictEqual([
       {
-        title: 'Langage de programmations',
+        title: 'Langages',
         skills: [
           {
             name: 'HTML / (S)CSS',
@@ -70,18 +70,6 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
           {
             name: 'Typescript',
             value: 80
-          },
-          {
-            name: 'PHP',
-            value: 50
-          },
-          {
-            name: 'Java',
-            value: 20
-          },
-          {
-            name: 'C#',
-            value: 20
           }
         ]
       },
@@ -124,27 +112,6 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
           {
             name: 'Cypress',
             value: 75
-          }
-        ]
-      },
-      {
-        title: 'Versionning, Intégration continue',
-        skills: [
-          {
-            name: 'Git',
-            value: 95
-          },
-          {
-            name: 'Circle CI',
-            value: 70
-          },
-          {
-            name: 'Github Action',
-            value: 50
-          },
-          {
-            name: 'Jenkins',
-            value: 20
           }
         ]
       }

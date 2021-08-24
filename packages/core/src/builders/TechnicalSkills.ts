@@ -1,6 +1,6 @@
 import { Builder, DataBuilder, Repository } from './_builder'
 
-interface SkillEntity {
+export interface SkillEntity {
   name: string
   value: number
 }

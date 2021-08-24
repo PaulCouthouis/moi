@@ -5,7 +5,7 @@ exports[`Methods Information should return methods information of John Doe 1`] =
   className="sc-bXexck bUZuQE"
 >
   <h2
-    className="sc-cBoqAE dLXmhc"
+    className="sc-cBoqAE eiBWXX"
   >
     Ma Méthodologie
   </h2>
@@ -19,7 +19,7 @@ exports[`Methods Information should return methods information of John Doe 1`] =
         className="sc-cxNHIi fAVimU"
       >
         <span
-          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+          className="sc-bsatvv fEgCuu lnr lnr-A"
         />
       </div>
       <div
@@ -44,7 +44,7 @@ exports[`Methods Information should return methods information of John Doe 1`] =
         className="sc-cxNHIi fAVimU"
       >
         <span
-          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+          className="sc-bsatvv fEgCuu lnr lnr-W"
         />
       </div>
       <div
@@ -71,7 +71,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
   className="sc-bXexck bUZuQE"
 >
   <h2
-    className="sc-cBoqAE dLXmhc"
+    className="sc-cBoqAE eiBWXX"
   >
     Ma Méthodologie
   </h2>
@@ -85,7 +85,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
         className="sc-cxNHIi fAVimU"
       >
         <span
-          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+          className="sc-bsatvv fEgCuu lnr lnr-keyboard"
         />
       </div>
       <div
@@ -110,7 +110,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
         className="sc-cxNHIi fAVimU"
       >
         <span
-          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+          className="sc-bsatvv fEgCuu lnr lnr-diamond"
         />
       </div>
       <div
@@ -135,7 +135,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
         className="sc-cxNHIi fAVimU"
       >
         <span
-          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+          className="sc-bsatvv fEgCuu lnr lnr-bulle"
         />
       </div>
       <div
@@ -160,7 +160,7 @@ exports[`Methods Information should return methods information of Paul Couthouis
         className="sc-cxNHIi fAVimU"
       >
         <span
-          className="sc-bsatvv fEgCuu lnr lnr-undefined"
+          className="sc-bsatvv fEgCuu lnr lnr-endless"
         />
       </div>
       <div

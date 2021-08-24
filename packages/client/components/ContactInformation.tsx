@@ -1,6 +1,7 @@
 import { ContactInformationEntity } from '@frontend/core'
 import { x } from '@xstyled/styled-components'
 import React from 'react'
+import { SectionTitle } from './shared/SectionTitle'
 
 export interface ContactInformationSerializeResult extends Omit<ContactInformationEntity, 'dateAvailable'> {
   dateAvailable: string
@@ -28,16 +29,7 @@ export const ContactInformation: React.FC<{ contactInformation: ContactInformati
   const { mainPhone, mainCity, mail, dateAvailable } = contactInformation
   return (
     <x.address bg='#222' p='25px 30px 60px' marginTop='10px'>
-      <x.h2
-        marginBottom='40px'
-        paddingBottom='5px'
-        borderBottom='2px solid #666'
-        fontSize={30}
-        fontWeight={600}
-        fontStyle='normal'
-      >
-        Contact
-      </x.h2>
+      <SectionTitle>Contact</SectionTitle>
       <x.div display='flex' flexDirection={{ _: 'column', md: 'row' }} flexWrap='wrap' justifyContent='space-between'>
         <IconLabelBlock label={mail} icon='lnr-envelope' />
         <IconLabelBlock label={mainPhone} icon='lnr-smartphone' />
