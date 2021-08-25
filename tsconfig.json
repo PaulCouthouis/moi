@@ -20,7 +20,8 @@
         "@frontend/client/*": ["client/*"],
         "@frontend/core/*": ["core/*"]
       },
-      "jsx": "react-jsx"
+      "jsx": "react-jsx",
+      "rootDir": "./packages"
     },
     "exclude": ["node_modules"]
   }
