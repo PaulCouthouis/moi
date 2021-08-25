@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { MethodInformationEntity, PaulDataBuilder, PaulDataInMemory, TechnicalSkillsEntity } from '@frontend/core/'
+import { ExperiencesEntity, MethodInformationEntity, PaulDataBuilder, PaulDataInMemory, TechnicalSkillsEntity } from '@frontend/core/'
 import { MainInformation, MainInformationSerializeResult } from '../components/MainInformation'
 import { ProfilePhoto } from '../components/ProfilePhoto'
 import { x } from '@xstyled/styled-components'
@@ -11,6 +11,7 @@ import { ResumeInformation } from '../components/ResumeInformation'
 interface HomeProps {
   mainInformation: MainInformationSerializeResult
   methodsInformation: MethodInformationEntity[]
+  experiences: ExperiencesEntity[]
   technicalSkills: TechnicalSkillsEntity[]
   contactInformation: ContactInformationSerializeResult
 }
@@ -18,6 +19,7 @@ interface HomeProps {
 function Home ({
   mainInformation,
   methodsInformation,
+  experiences,
   technicalSkills,
   contactInformation
 }: HomeProps): JSX.Element {
@@ -41,7 +43,7 @@ function Home ({
         <MainInformation mainInformation={mainInformation} />
       </x.section>
       <MethodsInformation methodsInformation={methodsInformation} />
-      <ResumeInformation technicalSkills={technicalSkills} />
+      <ResumeInformation experiences={experiences} technicalSkills={technicalSkills} />
       <ContactInformation contactInformation={contactInformation} />
     </x.div>
   )
@@ -62,6 +64,7 @@ export async function getStaticProps (): Promise<{
       },
       methodsInformation: await paulDataSelectors.getMethodsInformation(),
       technicalSkills: await paulDataSelectors.getTechnicalSkills(),
+      experiences: await paulDataSelectors.getExperiences(),
       contactInformation: {
         ...contactInformation,
         dateAvailable: contactInformation.dateAvailable.toISOString()

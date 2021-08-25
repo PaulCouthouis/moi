@@ -9,236 +9,329 @@ exports[`Resume Information should return resume information of John Doe 1`] = `
   >
     Profil
   </h2>
-  <div
-    className="sc-cxNHIi bReWbV"
+  <main
+    className="sc-oeezt"
   >
     <article
-      className="sc-eCApnc crRaXW"
+      className="sc-eCApnc"
     >
       <h3
         className="sc-ciSkZP gpeMtY"
       >
-        Autres librairies JS
+        Expériences
       </h3>
-      <div
-        className="sc-cxNHIi kMVWSh"
+      <section
+        className="sc-bXexck jbvMUl"
       >
-        <div
-          className="sc-cxNHIi egrhlE"
+        <header
+          className="sc-efHYUO"
         >
           <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-eKYRIR beiomK"
           >
-            Jest
+            <time>
+              Octobre 2019
+            </time>
+             - 
+            <time>
+              Mars 2021
+            </time>
           </p>
           <p
-            className="sc-eKYRIR kXizaC"
+            className="sc-eKYRIR ePysKN"
           >
-            90
-            %
+            Osaka International School of Culture and Language
           </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
+        </header>
+        <main
+          className="sc-oeezt"
         >
-          <div
-            className="sc-cxNHIi hOauWK"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
+          <header
+            className="sc-efHYUO jlruWt"
+          >
+             
+            Etudiant en japonais
+             
+          </header>
+          <p
+            className="sc-eKYRIR ijYRgq"
+          >
+            Coupure d'un an et demi pour apprendre sur la langue et la culture japonaise
+          </p>
+        </main>
+      </section>
+      <section
+        className="sc-bXexck jbvMUl"
       >
-        <div
-          className="sc-cxNHIi egrhlE"
+        <header
+          className="sc-efHYUO"
         >
           <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-eKYRIR beiomK"
           >
-            RxJS
+            <time>
+              Novembre 2018
+            </time>
+             - 
+            <time>
+              Septembre 2019
+            </time>
           </p>
           <p
-            className="sc-eKYRIR kXizaC"
+            className="sc-eKYRIR ePysKN"
           >
-            75
-            %
+            Effy
           </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
+        </header>
+        <main
+          className="sc-oeezt"
         >
-          <div
-            className="sc-cxNHIi jA-dHKV"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
+          <header
+            className="sc-efHYUO jlruWt"
+          >
+             
+            Lead Développeur Front-End
+             
+          </header>
           <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-eKYRIR ijYRgq"
           >
-            Cucumber
+            Lead Développeur Front dans une équipe de 4 développeurs, nous avons architecturé et développé diverses interfaces en collaboration avec l'équipe produit.
           </p>
-          <p
-            className="sc-eKYRIR kXizaC"
-          >
-            75
-            %
-          </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
-        >
-          <div
-            className="sc-cxNHIi jA-dHKV"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
-          >
-            Cypress
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
-          >
-            75
-            %
-          </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
-        >
-          <div
-            className="sc-cxNHIi jA-dHKV"
-          />
-        </div>
-      </div>
+        </main>
+      </section>
     </article>
-    <article
-      className="sc-eCApnc crRaXW"
+    <div
+      className="sc-cxNHIi bReWbV"
     >
-      <h3
-        className="sc-ciSkZP gpeMtY"
+      <article
+        className="sc-eCApnc crRaXW"
       >
-        Versionning, Intégration continue
-      </h3>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
+        <h3
+          className="sc-ciSkZP gpeMtY"
         >
-          <p
-            className="sc-eKYRIR hmQIr"
-          >
-            Git
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
-          >
-            95
-            %
-          </p>
-        </div>
+          Autres librairies JS
+        </h3>
         <div
-          className="sc-cxNHIi geVump"
+          className="sc-cxNHIi kMVWSh"
         >
           <div
-            className="sc-cxNHIi fnjsyb"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-cxNHIi egrhlE"
           >
-            Circle CI
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Jest
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              90
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
           >
-            70
-            %
-          </p>
+            <div
+              className="sc-cxNHIi hOauWK"
+            />
+          </div>
         </div>
         <div
-          className="sc-cxNHIi geVump"
+          className="sc-cxNHIi kMVWSh"
         >
           <div
-            className="sc-cxNHIi jIRNo"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-cxNHIi egrhlE"
           >
-            Github Action
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              RxJS
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              75
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
           >
-            50
-            %
-          </p>
+            <div
+              className="sc-cxNHIi jA-dHKV"
+            />
+          </div>
         </div>
         <div
-          className="sc-cxNHIi geVump"
+          className="sc-cxNHIi kMVWSh"
         >
           <div
-            className="sc-cxNHIi kxSsyO"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-cxNHIi egrhlE"
           >
-            Jenkins
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Cucumber
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              75
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
           >
-            20
-            %
-          </p>
+            <div
+              className="sc-cxNHIi jA-dHKV"
+            />
+          </div>
         </div>
         <div
-          className="sc-cxNHIi geVump"
+          className="sc-cxNHIi kMVWSh"
         >
           <div
-            className="sc-cxNHIi gvGppZ"
-          />
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Cypress
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              75
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi jA-dHKV"
+            />
+          </div>
         </div>
-      </div>
-    </article>
-  </div>
+      </article>
+      <article
+        className="sc-eCApnc crRaXW"
+      >
+        <h3
+          className="sc-ciSkZP gpeMtY"
+        >
+          Versionning, Intégration continue
+        </h3>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Git
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              95
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi fnjsyb"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Circle CI
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              70
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi jIRNo"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Github Action
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              50
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi kxSsyO"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Jenkins
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              20
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi gvGppZ"
+            />
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
 </div>
 `;
 
@@ -251,287 +344,380 @@ exports[`Resume Information should return resume information of Paul Couthouis 1
   >
     Profil
   </h2>
-  <div
-    className="sc-cxNHIi bReWbV"
+  <main
+    className="sc-oeezt"
   >
     <article
-      className="sc-eCApnc crRaXW"
+      className="sc-eCApnc"
     >
       <h3
         className="sc-ciSkZP gpeMtY"
       >
-        Langage de programmations
+        Expériences
       </h3>
-      <div
-        className="sc-cxNHIi kMVWSh"
+      <section
+        className="sc-bXexck jbvMUl"
       >
-        <div
-          className="sc-cxNHIi egrhlE"
+        <header
+          className="sc-efHYUO"
         >
           <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-eKYRIR beiomK"
           >
-            HTML / (S)CSS
+            <time>
+              Avril 2021
+            </time>
+             - 
+            <time>
+              Actuel
+            </time>
           </p>
           <p
-            className="sc-eKYRIR kXizaC"
+            className="sc-eKYRIR ePysKN"
           >
-            95
-            %
+            BaseConnect
           </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
+        </header>
+        <main
+          className="sc-oeezt"
         >
-          <div
-            className="sc-cxNHIi fnjsyb"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
+          <header
+            className="sc-efHYUO jlruWt"
+          >
+             
+            Développeur Front-End
+             
+          </header>
+          <p
+            className="sc-eKYRIR ijYRgq"
+          >
+            Dans un environnement 100% japonais, je suis intégré à l'équipe front-end et je développe de nouvelles features pour l'application principale.
+          </p>
+        </main>
+      </section>
+      <section
+        className="sc-bXexck jbvMUl"
       >
-        <div
-          className="sc-cxNHIi egrhlE"
+        <header
+          className="sc-efHYUO"
         >
           <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-eKYRIR beiomK"
           >
-            Javascript
+            <time>
+              Octobre 2019
+            </time>
+             - 
+            <time>
+              Mars 2021
+            </time>
           </p>
           <p
-            className="sc-eKYRIR kXizaC"
+            className="sc-eKYRIR ePysKN"
           >
-            90
-            %
+            Osaka International School of Culture and Language
           </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
+        </header>
+        <main
+          className="sc-oeezt"
         >
-          <div
-            className="sc-cxNHIi hOauWK"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
+          <header
+            className="sc-efHYUO jlruWt"
+          >
+             
+            Etudiant en japonais
+             
+          </header>
           <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-eKYRIR ijYRgq"
           >
-            Typescript
+            Coupure d'un an et demi pour apprendre sur la langue et la culture japonaise
           </p>
-          <p
-            className="sc-eKYRIR kXizaC"
-          >
-            80
-            %
-          </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
-        >
-          <div
-            className="sc-cxNHIi cgzjxP"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
-          >
-            PHP
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
-          >
-            50
-            %
-          </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
-        >
-          <div
-            className="sc-cxNHIi kxSsyO"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
-          >
-            Java
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
-          >
-            20
-            %
-          </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
-        >
-          <div
-            className="sc-cxNHIi gvGppZ"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
-          >
-            C#
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
-          >
-            20
-            %
-          </p>
-        </div>
-        <div
-          className="sc-cxNHIi geVump"
-        >
-          <div
-            className="sc-cxNHIi gvGppZ"
-          />
-        </div>
-      </div>
+        </main>
+      </section>
     </article>
-    <article
-      className="sc-eCApnc crRaXW"
+    <div
+      className="sc-cxNHIi bReWbV"
     >
-      <h3
-        className="sc-ciSkZP gpeMtY"
+      <article
+        className="sc-eCApnc crRaXW"
       >
-        Framework JS
-      </h3>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
+        <h3
+          className="sc-ciSkZP gpeMtY"
         >
-          <p
-            className="sc-eKYRIR hmQIr"
-          >
-            Angular
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
-          >
-            90
-            %
-          </p>
-        </div>
+          Langage de programmations
+        </h3>
         <div
-          className="sc-cxNHIi geVump"
+          className="sc-cxNHIi kMVWSh"
         >
           <div
-            className="sc-cxNHIi hOauWK"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-cxNHIi egrhlE"
           >
-            React (+ Next)
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              HTML / (S)CSS
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              95
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
           >
-            70
-            %
-          </p>
+            <div
+              className="sc-cxNHIi fnjsyb"
+            />
+          </div>
         </div>
         <div
-          className="sc-cxNHIi geVump"
+          className="sc-cxNHIi kMVWSh"
         >
           <div
-            className="sc-cxNHIi jIRNo"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-cxNHIi egrhlE"
           >
-            Vue
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Javascript
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              90
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
           >
-            50
-            %
-          </p>
+            <div
+              className="sc-cxNHIi hOauWK"
+            />
+          </div>
         </div>
         <div
-          className="sc-cxNHIi geVump"
+          className="sc-cxNHIi kMVWSh"
         >
           <div
-            className="sc-cxNHIi kxSsyO"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-cxNHIi kMVWSh"
-      >
-        <div
-          className="sc-cxNHIi egrhlE"
-        >
-          <p
-            className="sc-eKYRIR hmQIr"
+            className="sc-cxNHIi egrhlE"
           >
-            Svelte
-          </p>
-          <p
-            className="sc-eKYRIR kXizaC"
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Typescript
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              80
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
           >
-            50
-            %
-          </p>
+            <div
+              className="sc-cxNHIi cgzjxP"
+            />
+          </div>
         </div>
         <div
-          className="sc-cxNHIi geVump"
+          className="sc-cxNHIi kMVWSh"
         >
           <div
-            className="sc-cxNHIi kxSsyO"
-          />
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              PHP
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              50
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi kxSsyO"
+            />
+          </div>
         </div>
-      </div>
-    </article>
-  </div>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Java
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              20
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi gvGppZ"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              C#
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              20
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi gvGppZ"
+            />
+          </div>
+        </div>
+      </article>
+      <article
+        className="sc-eCApnc crRaXW"
+      >
+        <h3
+          className="sc-ciSkZP gpeMtY"
+        >
+          Framework JS
+        </h3>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Angular
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              90
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi hOauWK"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              React (+ Next)
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              70
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi jIRNo"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Vue
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              50
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi kxSsyO"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-cxNHIi kMVWSh"
+        >
+          <div
+            className="sc-cxNHIi egrhlE"
+          >
+            <p
+              className="sc-eKYRIR hmQIr"
+            >
+              Svelte
+            </p>
+            <p
+              className="sc-eKYRIR kXizaC"
+            >
+              50
+              %
+            </p>
+          </div>
+          <div
+            className="sc-cxNHIi geVump"
+          >
+            <div
+              className="sc-cxNHIi kxSsyO"
+            />
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
 </div>
 `;
