@@ -1,7 +1,12 @@
 import { PaulDataRepository } from '.'
+import { ContactInformationEntity } from './builders/ContactInformation'
+import { ExperiencesEntity } from './builders/Experiences'
+import { MainInformationEntity } from './builders/MainInformation'
+import { MethodInformationEntity } from './builders/MethodsInformation'
+import { TechnicalSkillsEntity } from './builders/TechnicalSkills'
 
 export const PaulDataInMemory: () => PaulDataRepository = () => ({
-  getMainInformation: async () => await Promise.resolve({
+  getMainInformation: async () => await Promise.resolve<MainInformationEntity>({
     firstName: 'Paul',
     lastName: 'Couthouis',
     job: 'Développeur Front-End',
@@ -13,7 +18,7 @@ Freelance depuis 2013, je suis un vrai passionné du développement. J'aime le t
 Si vous êtes à la recherche d'un développeur consciencieux, méthodique et toujours à l'écoute du client, n'hésitez pas à parcourir mon profil à travers ce site et pourquoi pas me contacter par e-mail. Bonne visite :)`
   }),
 
-  getContactInformation: async () => await Promise.resolve({
+  getContactInformation: async () => await Promise.resolve<ContactInformationEntity>({
     mainPhone: '+81 80 7555 3894',
     secondPhone: '+33659483619',
     mainCity: 'Kyoto',
@@ -23,7 +28,7 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
     isAvailable: false
   }),
 
-  getMethodsInformation: async () => await Promise.resolve([
+  getMethodsInformation: async () => await Promise.resolve<MethodInformationEntity[]>([
     {
       title: 'Test-Driven Development',
       icon: 'keyboard',
@@ -46,7 +51,7 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
     }
   ]),
 
-  getTechnicalSkills: async () => await Promise.resolve([
+  getTechnicalSkills: async () => await Promise.resolve<TechnicalSkillsEntity[]>([
     {
       title: 'Langages',
       skills: [
@@ -105,6 +110,30 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
           value: 75
         }
       ]
+    }
+  ]),
+
+  getExperiences: async () => await Promise.resolve<ExperiencesEntity[]>([
+    {
+      title: 'Développeur Front-End',
+      startDate: 'Avril 2021',
+      endDate: 'Actuel',
+      company: 'BaseConnect',
+      description: 'Dans un environnement 100% japonais, je suis intégré à l\'équipe front-end et je développe de nouvelles features pour l\'application principale.'
+    },
+    {
+      title: 'Etudiant en japonais',
+      startDate: 'Octobre 2019',
+      endDate: 'Mars 2021',
+      company: 'Osaka International School of Culture and Language',
+      description: 'Coupure d\'un an et demi pour apprendre sur la langue et la culture japonaise'
+    },
+    {
+      title: 'Lead Développeur Front-End',
+      startDate: 'Novembre 2018',
+      endDate: 'Septembre 2019',
+      company: 'Effy',
+      description: 'Lead Développeur Front dans une équipe de 4 développeurs, nous avons architecturé et développé diverses interfaces en collaboration avec l\'équipe produit.'
     }
   ])
 })
