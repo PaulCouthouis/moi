@@ -1,5 +1,6 @@
 import { ExperiencesEntity, SkillEntity, TechnicalSkillsEntity } from '@frontend/core/src'
 import { x } from '@xstyled/styled-components'
+import { ResumeButton } from './shared/ResumeButton'
 import { SectionTitle } from './shared/SectionTitle'
 
 const ArticleTitle: React.FC = ({ children }) => {
@@ -73,6 +74,9 @@ export const ResumeInformation: React.FC<{
         </x.article>
         <x.div flex='1' minWidth='170px' maxWidth='710px'>
           {skillsItems}
+          <x.div display='flex' justifyContent='center'>
+            <ResumeButton>Plus de détails sur mon CV</ResumeButton>
+          </x.div>
         </x.div>
       </x.main>
     </x.div>

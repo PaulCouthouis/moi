@@ -2,6 +2,7 @@ import { MainInformationEntity } from '@frontend/core'
 import styled, { x } from '@xstyled/styled-components'
 import { MDXRemoteSerializeResult } from 'next-mdx-remote/dist/types'
 import { MDXRemote } from 'next-mdx-remote'
+import { ResumeButton } from './shared/ResumeButton'
 
 export interface MainInformationSerializeResult extends Omit<MainInformationEntity, 'description'> {
   description: MDXRemoteSerializeResult
@@ -37,20 +38,7 @@ export const MainInformation: React.FC<{ mainInformation: MainInformationSeriali
         <x.h1 fontSize={36} fontWeight={600} lineHeight='1.2em' m='0 0 15px 0'>{firstName} {lastName}</x.h1>
         <Description> <MDXRemote {...description} /> </Description>
 
-        <x.a
-          href='https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing'
-          display='inline-block'
-          border='2px solid #0099e5'
-          p='11px 28px'
-          marginTop={30}
-          textDecoration='none'
-          color='#fff'
-          bg={{ hover: '#0099e5' }}
-          transition='all 0.3s ease-in-out'
-          target='_blank'
-        >
-          Télécharger mon CV
-        </x.a>
+        <ResumeButton>Télécharger mon CV</ResumeButton>
       </x.div>
     </x.article>
   )
