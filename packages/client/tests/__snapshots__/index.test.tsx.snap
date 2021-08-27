@@ -140,7 +140,7 @@ exports[`Index Page should snapshot 1`] = `
            
         </div>
         <a
-          className="sc-bdnxRM cxVKJa"
+          className="sc-bdnxRM fpHZtF"
           href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
           target="_blank"
         >
@@ -1128,6 +1128,17 @@ exports[`Index Page should snapshot 1`] = `
             </div>
           </div>
         </article>
+        <div
+          className="sc-cxNHIi cRiTtJ"
+        >
+          <a
+            className="sc-bdnxRM fpHZtF"
+            href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
+            target="_blank"
+          >
+            Plus de détails sur mon CV
+          </a>
+        </div>
       </div>
     </main>
   </div>

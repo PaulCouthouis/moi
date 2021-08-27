@@ -356,6 +356,17 @@ exports[`Resume Information should return resume information of John Doe 1`] = `
           </div>
         </div>
       </article>
+      <div
+        className="sc-cxNHIi cRiTtJ"
+      >
+        <a
+          className="sc-bdnxRM fpHZtF"
+          href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
+          target="_blank"
+        >
+          Plus de détails sur mon CV
+        </a>
+      </div>
     </div>
   </main>
 </div>
@@ -769,6 +780,17 @@ exports[`Resume Information should return resume information of Paul Couthouis 1
           </div>
         </div>
       </article>
+      <div
+        className="sc-cxNHIi cRiTtJ"
+      >
+        <a
+          className="sc-bdnxRM fpHZtF"
+          href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
+          target="_blank"
+        >
+          Plus de détails sur mon CV
+        </a>
+      </div>
     </div>
   </main>
 </div>

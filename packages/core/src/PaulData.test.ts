@@ -185,8 +185,8 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
       },
       {
         title: 'DUT Services Et Réseaux De Communication',
-        startDate: 'Nov. 2018',
-        endDate: 'Sep. 2019',
+        startDate: 'Sep. 2009',
+        endDate: 'Juin 2011',
         company: 'Université Paris-Est Marne-la-Vallée',
         description: 'Conception Et Développement Web. DUT ponctué par un stage de fin d\'année de 3 mois chez Saft'
       }
