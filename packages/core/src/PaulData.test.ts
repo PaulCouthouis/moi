@@ -140,6 +140,55 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
         endDate: 'Sep. 2019',
         company: 'Effy',
         description: 'Lead Développeur Front dans une équipe de 4 développeurs, nous avons architecturé et développé diverses interfaces en collaboration avec l\'équipe produit.'
+      },
+      {
+        title: 'Développeur Front-End',
+        startDate: 'Sep. 2017',
+        endDate: 'Oct. 2018',
+        company: 'Renault',
+        description: 'Intégré dans une équipe de l\'entreprise, nous avons réalisé une nouvelleapplication au service de l\'ingénierie Alliance (Renault-Nissan-Mitsubishi).'
+      },
+      {
+        title: 'Développeur Front-End',
+        startDate: 'Juin 2017',
+        endDate: 'Août 2017',
+        company: 'Holy-Dis',
+        description: 'Application consiste à faire de l\'optimisation d\'emploi du temps des employés en fonction d\'un nombre important de paramètres.'
+      },
+      {
+        title: 'Développeur Front-End',
+        startDate: 'Mai 2016',
+        endDate: 'Mai 2017',
+        company: 'Eurosport',
+        description: 'Développement de deux projets internes à l\'entreprise'
+      },
+      {
+        title: 'Développeur Front-End',
+        startDate: 'Fév. 2016',
+        endDate: 'Avr. 2016',
+        company: 'Attractive World',
+        description: 'Projet consistant à développer la nouvelle version du site principal qui abandonne sa version mobile pour un site entièrement responsive avec de nouvelles fonctionnalités.'
+      },
+      {
+        title: 'Missions Freelances',
+        startDate: 'Fev. 2013',
+        endDate: 'Jan. 2016',
+        company: 'Divers',
+        description: 'Missions exécutés pour les clients suivant : Symphony EYC, P Comme Performance, Air France, Equidia, L\'Occitane, Ecocea, GS Activ'
+      },
+      {
+        title: 'Formation Qualifiante (en alternance)',
+        startDate: 'Fev. 2012',
+        endDate: 'Jan. 2013',
+        company: 'Institu F2I',
+        description: 'Développement Et Design Web. J\'étais également emloyé en contrat alternant pour l\'entreprise P Comme Performance'
+      },
+      {
+        title: 'DUT Services Et Réseaux De Communication',
+        startDate: 'Nov. 2018',
+        endDate: 'Sep. 2019',
+        company: 'Université Paris-Est Marne-la-Vallée',
+        description: 'Conception Et Développement Web. DUT ponctué par un stage de fin d\'année de 3 mois chez Saft'
       }
     ])
   })
