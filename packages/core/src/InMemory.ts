@@ -116,22 +116,22 @@ Si vous êtes à la recherche d'un développeur consciencieux, méthodique et to
   getExperiences: async () => await Promise.resolve<ExperiencesEntity[]>([
     {
       title: 'Développeur Front-End',
-      startDate: 'Avril 2021',
+      startDate: 'Avr. 2021',
       endDate: 'Actuel',
       company: 'BaseConnect',
       description: 'Dans un environnement 100% japonais, je suis intégré à l\'équipe front-end et je développe de nouvelles features pour l\'application principale.'
     },
     {
       title: 'Etudiant en japonais',
-      startDate: 'Octobre 2019',
+      startDate: 'Oct. 2019',
       endDate: 'Mars 2021',
       company: 'Osaka International School of Culture and Language',
       description: 'Coupure d\'un an et demi pour apprendre sur la langue et la culture japonaise'
     },
     {
       title: 'Lead Développeur Front-End',
-      startDate: 'Novembre 2018',
-      endDate: 'Septembre 2019',
+      startDate: 'Nov. 2018',
+      endDate: 'Sep. 2019',
       company: 'Effy',
       description: 'Lead Développeur Front dans une équipe de 4 développeurs, nous avons architecturé et développé diverses interfaces en collaboration avec l\'équipe produit.'
     }

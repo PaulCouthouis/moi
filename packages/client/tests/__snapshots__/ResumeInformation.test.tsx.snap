@@ -10,10 +10,10 @@ exports[`Resume Information should return resume information of John Doe 1`] = `
     Profil
   </h2>
   <main
-    className="sc-oeezt"
+    className="sc-oeezt iexnAr"
   >
     <article
-      className="sc-eCApnc"
+      className="sc-eCApnc eUMFVB"
     >
       <h3
         className="sc-ciSkZP gpeMtY"
@@ -21,88 +21,114 @@ exports[`Resume Information should return resume information of John Doe 1`] = `
         Expériences
       </h3>
       <section
-        className="sc-bXexck jbvMUl"
+        className="sc-bXexck btRMDz"
       >
-        <header
-          className="sc-efHYUO"
+        <div
+          className="sc-cxNHIi jGnmMk"
+          role="decoration"
         >
-          <p
-            className="sc-eKYRIR beiomK"
-          >
-            <time>
-              Octobre 2019
-            </time>
-             - 
-            <time>
-              Mars 2021
-            </time>
-          </p>
-          <p
-            className="sc-eKYRIR ePysKN"
-          >
-            Osaka International School of Culture and Language
-          </p>
-        </header>
-        <main
-          className="sc-oeezt"
+          <div
+            className="sc-cxNHIi ioFYxC"
+            role="decoration"
+          />
+        </div>
+        <div
+          className="sc-cxNHIi cXxdrC"
         >
           <header
-            className="sc-efHYUO jlruWt"
+            className="sc-efHYUO jkoqbp"
           >
-             
-            Etudiant en japonais
-             
+            <p
+              className="sc-eKYRIR bbdZXx"
+            >
+              <time>
+                Octobre 2019
+              </time>
+               - 
+              <time>
+                Mars 2021
+              </time>
+            </p>
+            <p
+              className="sc-eKYRIR codCA-D"
+            >
+              Osaka International School of Culture and Language
+            </p>
           </header>
-          <p
-            className="sc-eKYRIR ijYRgq"
+          <main
+            className="sc-oeezt"
           >
-            Coupure d'un an et demi pour apprendre sur la langue et la culture japonaise
-          </p>
-        </main>
+            <header
+              className="sc-efHYUO jlruWt"
+            >
+               
+              Etudiant en japonais
+               
+            </header>
+            <p
+              className="sc-eKYRIR gzqqNI"
+            >
+              Coupure d'un an et demi pour apprendre sur la langue et la culture japonaise
+            </p>
+          </main>
+        </div>
       </section>
       <section
-        className="sc-bXexck jbvMUl"
+        className="sc-bXexck btRMDz"
       >
-        <header
-          className="sc-efHYUO"
+        <div
+          className="sc-cxNHIi jGnmMk"
+          role="decoration"
         >
-          <p
-            className="sc-eKYRIR beiomK"
-          >
-            <time>
-              Novembre 2018
-            </time>
-             - 
-            <time>
-              Septembre 2019
-            </time>
-          </p>
-          <p
-            className="sc-eKYRIR ePysKN"
-          >
-            Effy
-          </p>
-        </header>
-        <main
-          className="sc-oeezt"
+          <div
+            className="sc-cxNHIi ioFYxC"
+            role="decoration"
+          />
+        </div>
+        <div
+          className="sc-cxNHIi cXxdrC"
         >
           <header
-            className="sc-efHYUO jlruWt"
+            className="sc-efHYUO jkoqbp"
           >
-             
-            Lead Développeur Front-End
-             
+            <p
+              className="sc-eKYRIR bbdZXx"
+            >
+              <time>
+                Novembre 2018
+              </time>
+               - 
+              <time>
+                Septembre 2019
+              </time>
+            </p>
+            <p
+              className="sc-eKYRIR codCA-D"
+            >
+              Effy
+            </p>
           </header>
-          <p
-            className="sc-eKYRIR ijYRgq"
+          <main
+            className="sc-oeezt"
           >
-            Lead Développeur Front dans une équipe de 4 développeurs, nous avons architecturé et développé diverses interfaces en collaboration avec l'équipe produit.
-          </p>
-        </main>
+            <header
+              className="sc-efHYUO jlruWt"
+            >
+               
+              Lead Développeur Front-End
+               
+            </header>
+            <p
+              className="sc-eKYRIR gzqqNI"
+            >
+              Lead Développeur Front dans une équipe de 4 développeurs, nous avons architecturé et développé diverses interfaces en collaboration avec l'équipe produit.
+            </p>
+          </main>
+        </div>
       </section>
     </article>
     <div
-      className="sc-cxNHIi bReWbV"
+      className="sc-cxNHIi fFMmbg"
     >
       <article
         className="sc-eCApnc crRaXW"
@@ -345,10 +371,10 @@ exports[`Resume Information should return resume information of Paul Couthouis 1
     Profil
   </h2>
   <main
-    className="sc-oeezt"
+    className="sc-oeezt iexnAr"
   >
     <article
-      className="sc-eCApnc"
+      className="sc-eCApnc eUMFVB"
     >
       <h3
         className="sc-ciSkZP gpeMtY"
@@ -356,88 +382,114 @@ exports[`Resume Information should return resume information of Paul Couthouis 1
         Expériences
       </h3>
       <section
-        className="sc-bXexck jbvMUl"
+        className="sc-bXexck btRMDz"
       >
-        <header
-          className="sc-efHYUO"
+        <div
+          className="sc-cxNHIi jGnmMk"
+          role="decoration"
         >
-          <p
-            className="sc-eKYRIR beiomK"
-          >
-            <time>
-              Avril 2021
-            </time>
-             - 
-            <time>
-              Actuel
-            </time>
-          </p>
-          <p
-            className="sc-eKYRIR ePysKN"
-          >
-            BaseConnect
-          </p>
-        </header>
-        <main
-          className="sc-oeezt"
+          <div
+            className="sc-cxNHIi ioFYxC"
+            role="decoration"
+          />
+        </div>
+        <div
+          className="sc-cxNHIi cXxdrC"
         >
           <header
-            className="sc-efHYUO jlruWt"
+            className="sc-efHYUO jkoqbp"
           >
-             
-            Développeur Front-End
-             
+            <p
+              className="sc-eKYRIR bbdZXx"
+            >
+              <time>
+                Avril 2021
+              </time>
+               - 
+              <time>
+                Actuel
+              </time>
+            </p>
+            <p
+              className="sc-eKYRIR codCA-D"
+            >
+              BaseConnect
+            </p>
           </header>
-          <p
-            className="sc-eKYRIR ijYRgq"
+          <main
+            className="sc-oeezt"
           >
-            Dans un environnement 100% japonais, je suis intégré à l'équipe front-end et je développe de nouvelles features pour l'application principale.
-          </p>
-        </main>
+            <header
+              className="sc-efHYUO jlruWt"
+            >
+               
+              Développeur Front-End
+               
+            </header>
+            <p
+              className="sc-eKYRIR gzqqNI"
+            >
+              Dans un environnement 100% japonais, je suis intégré à l'équipe front-end et je développe de nouvelles features pour l'application principale.
+            </p>
+          </main>
+        </div>
       </section>
       <section
-        className="sc-bXexck jbvMUl"
+        className="sc-bXexck btRMDz"
       >
-        <header
-          className="sc-efHYUO"
+        <div
+          className="sc-cxNHIi jGnmMk"
+          role="decoration"
         >
-          <p
-            className="sc-eKYRIR beiomK"
-          >
-            <time>
-              Octobre 2019
-            </time>
-             - 
-            <time>
-              Mars 2021
-            </time>
-          </p>
-          <p
-            className="sc-eKYRIR ePysKN"
-          >
-            Osaka International School of Culture and Language
-          </p>
-        </header>
-        <main
-          className="sc-oeezt"
+          <div
+            className="sc-cxNHIi ioFYxC"
+            role="decoration"
+          />
+        </div>
+        <div
+          className="sc-cxNHIi cXxdrC"
         >
           <header
-            className="sc-efHYUO jlruWt"
+            className="sc-efHYUO jkoqbp"
           >
-             
-            Etudiant en japonais
-             
+            <p
+              className="sc-eKYRIR bbdZXx"
+            >
+              <time>
+                Octobre 2019
+              </time>
+               - 
+              <time>
+                Mars 2021
+              </time>
+            </p>
+            <p
+              className="sc-eKYRIR codCA-D"
+            >
+              Osaka International School of Culture and Language
+            </p>
           </header>
-          <p
-            className="sc-eKYRIR ijYRgq"
+          <main
+            className="sc-oeezt"
           >
-            Coupure d'un an et demi pour apprendre sur la langue et la culture japonaise
-          </p>
-        </main>
+            <header
+              className="sc-efHYUO jlruWt"
+            >
+               
+              Etudiant en japonais
+               
+            </header>
+            <p
+              className="sc-eKYRIR gzqqNI"
+            >
+              Coupure d'un an et demi pour apprendre sur la langue et la culture japonaise
+            </p>
+          </main>
+        </div>
       </section>
     </article>
     <div
-      className="sc-cxNHIi bReWbV"
+      className="sc-cxNHIi fFMmbg"
     >
       <article
         className="sc-eCApnc crRaXW"
