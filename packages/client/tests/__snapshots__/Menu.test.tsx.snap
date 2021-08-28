@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should return menu for John Doe 1`] = `
+<nav
+  className="sc-fXazdy yzoqs"
+>
+  <header
+    className="sc-efHYUO oJklF"
+  >
+    <div
+      className="sc-cxNHIi eOsMzp"
+    >
+      <div
+        className="sc-cxNHIi hXTGrf"
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzE4IiBoZWlnaHQ9IjEwODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <noscript>
+            <img
+              alt="Photo de profile"
+              decoding="async"
+              src="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75"
+              srcSet="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=750&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+          <img
+            alt="Photo de profile"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </div>
+      <p
+        className="sc-eKYRIR eQxDBF"
+      >
+        John Doe
+      </p>
+    </div>
+    <button
+      className="sc-bqGGPW cRBlrz"
+      onClick={[Function]}
+    >
+      <span
+        className="sc-bsatvv kBtJtC lnr lnr-menu"
+      />
+    </button>
+  </header>
+</nav>
+`;
+
+exports[`Menu should return menu for Paul Couthouis 1`] = `
+<nav
+  className="sc-fXazdy yzoqs"
+>
+  <header
+    className="sc-efHYUO oJklF"
+  >
+    <div
+      className="sc-cxNHIi eOsMzp"
+    >
+      <div
+        className="sc-cxNHIi hXTGrf"
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzE4IiBoZWlnaHQ9IjEwODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <noscript>
+            <img
+              alt="Photo de profile"
+              decoding="async"
+              src="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75"
+              srcSet="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=750&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+          <img
+            alt="Photo de profile"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </div>
+      </div>
+      <p
+        className="sc-eKYRIR eQxDBF"
+      >
+        Paul Couthouis
+      </p>
+    </div>
+    <button
+      className="sc-bqGGPW cRBlrz"
+      onClick={[Function]}
+    >
+      <span
+        className="sc-bsatvv kBtJtC lnr lnr-menu"
+      />
+    </button>
+  </header>
+</nav>
+`;

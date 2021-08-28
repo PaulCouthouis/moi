@@ -1,4 +1,5 @@
 import 'normalize.css'
+import '../public/main.css'
 import '../public/icon-font.min.css'
 import '../public/fonts.css'
 import type { AppProps } from 'next/app'

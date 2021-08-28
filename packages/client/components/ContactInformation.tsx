@@ -28,7 +28,7 @@ const IconLabelBlock: React.FC<{label: string, icon: string}> = ({ label, icon }
 export const ContactInformation: React.FC<{ contactInformation: ContactInformationSerializeResult}> = ({ contactInformation }) => {
   const { mainPhone, mainCity, mail, dateAvailable } = contactInformation
   return (
-    <x.address bg='#222' p='25px 30px 60px' marginTop='10px'>
+    <x.address id='contact' bg='#222' p='25px 30px 60px' marginTop='10px'>
       <SectionTitle>Contact</SectionTitle>
       <x.div display='flex' flexDirection={{ _: 'column', md: 'row' }} flexWrap='wrap' justifyContent='space-between'>
         <IconLabelBlock label={mail} icon='lnr-envelope' />

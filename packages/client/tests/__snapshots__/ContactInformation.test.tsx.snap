@@ -3,6 +3,7 @@
 exports[`Contact Information should return contact information of John Doe 1`] = `
 <address
   className="sc-dlnjwi fdHlYq"
+  id="contact"
 >
   <h2
     className="sc-cBoqAE eiBWXX"
@@ -67,6 +68,7 @@ exports[`Contact Information should return contact information of John Doe 1`] =
 exports[`Contact Information should return contact information of Paul Couthouis 1`] = `
 <address
   className="sc-dlnjwi fdHlYq"
+  id="contact"
 >
   <h2
     className="sc-cBoqAE eiBWXX"

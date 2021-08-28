@@ -3,6 +3,7 @@
 exports[`Resume Information should return resume information of John Doe 1`] = `
 <div
   className="sc-cxNHIi hlhtIV"
+  id="profile"
 >
   <h2
     className="sc-cBoqAE eiBWXX"
@@ -375,6 +376,7 @@ exports[`Resume Information should return resume information of John Doe 1`] = `
 exports[`Resume Information should return resume information of Paul Couthouis 1`] = `
 <div
   className="sc-cxNHIi hlhtIV"
+  id="profile"
 >
   <h2
     className="sc-cBoqAE eiBWXX"

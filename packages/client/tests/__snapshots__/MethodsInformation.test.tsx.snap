@@ -3,6 +3,7 @@
 exports[`Methods Information should return methods information of John Doe 1`] = `
 <section
   className="sc-bXexck bUZuQE"
+  id="method"
 >
   <h2
     className="sc-cBoqAE eiBWXX"
@@ -69,6 +70,7 @@ exports[`Methods Information should return methods information of John Doe 1`] =
 exports[`Methods Information should return methods information of Paul Couthouis 1`] = `
 <section
   className="sc-bXexck bUZuQE"
+  id="method"
 >
   <h2
     className="sc-cBoqAE eiBWXX"

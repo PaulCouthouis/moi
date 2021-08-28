@@ -7,6 +7,7 @@ import { serialize } from 'next-mdx-remote/serialize'
 import { ContactInformation, ContactInformationSerializeResult } from '../components/ContactInformation'
 import { MethodsInformation } from '../components/MethodsInformation'
 import { ResumeInformation } from '../components/ResumeInformation'
+import { Menu } from '../components/Menu'
 
 interface HomeProps {
   mainInformation: MainInformationSerializeResult
@@ -36,8 +37,9 @@ function Home ({
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
+      <Menu mainLabel={`${firstName} ${lastName}`} />
       <x.section
-        display={{ sm: 'flex' }} bg='#333' maxHeight={{ lg: '450px', xl: '665px' }}
+        display={{ sm: 'flex' }} bg='#333' maxHeight={{ lg: '450px', xl: '665px' }} marginTop='50px'
       >
         <ProfilePhoto />
         <MainInformation mainInformation={mainInformation} />

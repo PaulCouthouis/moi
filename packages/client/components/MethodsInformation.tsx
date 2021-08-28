@@ -18,7 +18,7 @@ export const MethodsInformation: React.FC<{
   ))
 
   return (
-    <x.section bg='#222' p='40px 30px 60px'>
+    <x.section id='method' bg='#222' p='40px 30px 60px'>
       <SectionTitle>Ma Méthodologie</SectionTitle>
       <x.div display='flex' flexWrap='wrap' justifyContent='space-around'>
         {articleItems}

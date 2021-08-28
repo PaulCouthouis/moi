@@ -65,7 +65,7 @@ export const ResumeInformation: React.FC<{
   )
 
   return (
-    <x.div bg='#222' p='25px 30px 60px' marginTop='10px'>
+    <x.div id='profile' bg='#222' p='25px 30px 60px' marginTop='10px'>
       <SectionTitle>Profil</SectionTitle>
       <x.main display='flex' flexWrap='wrap' justifyContent='space-around'>
         <x.article marginBottom='60px'>
