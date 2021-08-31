@@ -11,5 +11,6 @@ module.exports = {
   transform: {
     '^.+\\.(js|ts|tsx)$': 'ts-jest',
     '.+\\.(css|scss|png|jpg|jpeg|svg)$': '<rootDir>/__mocks__/images.js'
-  }
+  },
+  setupFilesAfterEnv: ['./jest-setup.ts']
 }

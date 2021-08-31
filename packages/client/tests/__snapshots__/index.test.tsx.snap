@@ -5,16 +5,16 @@ exports[`Index Page should snapshot 1`] = `
   className="sc-cxNHIi kwZVzH"
 >
   <nav
-    className="sc-fXazdy yzoqs"
+    className="sc-fXazdy fkcIu"
   >
     <header
-      className="sc-efHYUO oJklF"
+      className="sc-efHYUO kNNGAg"
     >
       <div
-        className="sc-cxNHIi eOsMzp"
+        className="sc-cxNHIi cAkVOz"
       >
         <div
-          className="sc-cxNHIi hXTGrf"
+          className="sc-cxNHIi cwurNK"
         >
           <div
             style={
@@ -113,7 +113,7 @@ exports[`Index Page should snapshot 1`] = `
           </div>
         </div>
         <p
-          className="sc-eKYRIR eQxDBF"
+          className="sc-eKYRIR lhIHhI"
         >
           Paul Couthouis
         </p>
@@ -128,55 +128,86 @@ exports[`Index Page should snapshot 1`] = `
       </button>
     </header>
   </nav>
-  <section
-    className="sc-bXexck dzIegs"
+  <main
+    className="sc-oeezt"
   >
-    <div
-      className="sc-cxNHIi cwurNK"
+    <section
+      className="sc-bXexck cQUeuo"
     >
       <div
-        style={
-          Object {
-            "boxSizing": "border-box",
-            "display": "inline-block",
-            "margin": 0,
-            "maxWidth": "100%",
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
+        className="sc-cxNHIi cwurNK"
       >
         <div
           style={
             Object {
               "boxSizing": "border-box",
-              "display": "block",
+              "display": "inline-block",
+              "margin": 0,
               "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
             }
           }
         >
-          <img
-            alt=""
-            aria-hidden={true}
-            role="presentation"
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzE4IiBoZWlnaHQ9IjEwODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+          <div
             style={
               Object {
-                "border": "none",
+                "boxSizing": "border-box",
                 "display": "block",
-                "margin": 0,
                 "maxWidth": "100%",
-                "padding": 0,
               }
             }
-          />
-        </div>
-        <noscript>
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzE4IiBoZWlnaHQ9IjEwODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <noscript>
+            <img
+              alt="Photo de profile"
+              decoding="async"
+              src="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75"
+              srcSet="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=750&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
           <img
             alt="Photo de profile"
             decoding="async"
-            src="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75"
-            srcSet="/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=750&q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fme.f3d4c48c95435f48078376d6250db234.jpeg&w=1920&q=75 2x"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
             style={
               Object {
                 "border": "none",
@@ -200,1135 +231,1108 @@ exports[`Index Page should snapshot 1`] = `
               }
             }
           />
-        </noscript>
-        <img
-          alt="Photo de profile"
-          decoding="async"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-          style={
-            Object {
-              "border": "none",
-              "bottom": 0,
-              "boxSizing": "border-box",
-              "display": "block",
-              "height": 0,
-              "left": 0,
-              "margin": "auto",
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-              "minHeight": "100%",
-              "minWidth": "100%",
-              "objectFit": undefined,
-              "objectPosition": undefined,
-              "padding": 0,
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-              "width": 0,
-            }
-          }
-        />
+        </div>
       </div>
-    </div>
-    <article
-      className="sc-eCApnc jSiOnL"
-    >
-      <div
-        className="sc-cxNHIi ivfhdD"
-      >
-        <header
-          className="sc-efHYUO fpvvik"
-        >
-          Développeur Front-End
-        </header>
-        <h1
-          className="sc-gXfVKN dmdmNL"
-        >
-          Paul
-           
-          Couthouis
-        </h1>
-        <div
-          className="sc-iIgjPs ercSyr"
-        >
-           
-          <p>
-            Bonjour et bienvenue !
-          </p>
-          <p>
-            Freelance depuis 2013, je suis un vrai passionné du développement. J'aime le travail bien fait et les applications abouties sans bug, ni dette techniques.
-          </p>
-          <p>
-            Si vous êtes à la recherche d'un développeur consciencieux, méthodique et toujours à l'écoute du client, n'hésitez pas à parcourir mon profil à travers ce site et pourquoi pas me contacter par e-mail. Bonne visite :)
-          </p>
-           
-        </div>
-        <a
-          className="sc-bdnxRM fpHZtF"
-          href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
-          target="_blank"
-        >
-          Télécharger mon CV
-        </a>
-      </div>
-    </article>
-  </section>
-  <section
-    className="sc-bXexck bUZuQE"
-    id="method"
-  >
-    <h2
-      className="sc-cBoqAE eiBWXX"
-    >
-      Ma Méthodologie
-    </h2>
-    <div
-      className="sc-cxNHIi eiFhon"
-    >
       <article
-        className="sc-eCApnc jppa-DQ"
+        className="sc-eCApnc jSiOnL"
       >
         <div
-          className="sc-cxNHIi fAVimU"
+          className="sc-cxNHIi ivfhdD"
         >
-          <span
-            className="sc-bsatvv fEgCuu lnr lnr-keyboard"
-          />
-        </div>
-        <div
-          className="sc-cxNHIi"
-        >
-          <h3
-            className="sc-ciSkZP hSvhzA"
+          <header
+            className="sc-efHYUO fpvvik"
           >
-            Test-Driven Development
-          </h3>
-          <p
-            className="sc-eKYRIR dJHtdu"
+            Développeur Front-End
+          </header>
+          <h1
+            className="sc-gXfVKN dmdmNL"
           >
-            Le TDD c'est la meilleur manière de produire du code sans dette, sans bug, avec un design optimisé et une couverture de test complète
-          </p>
-        </div>
-      </article>
-      <article
-        className="sc-eCApnc jppa-DQ"
-      >
-        <div
-          className="sc-cxNHIi fAVimU"
-        >
-          <span
-            className="sc-bsatvv fEgCuu lnr lnr-diamond"
-          />
-        </div>
-        <div
-          className="sc-cxNHIi"
-        >
-          <h3
-            className="sc-ciSkZP hSvhzA"
-          >
-            Hexagonal Architecture
-          </h3>
-          <p
-            className="sc-eKYRIR dJHtdu"
-          >
-            Pour un produit très peu dépendant des choix techniques, l'Hexagonal Architecture permet d'isoler le code métier, soit le coeur de votre application. C'est la garantie de faire évoluer votre produit dans le temps.
-          </p>
-        </div>
-      </article>
-      <article
-        className="sc-eCApnc jppa-DQ"
-      >
-        <div
-          className="sc-cxNHIi fAVimU"
-        >
-          <span
-            className="sc-bsatvv fEgCuu lnr lnr-bubble"
-          />
-        </div>
-        <div
-          className="sc-cxNHIi"
-        >
-          <h3
-            className="sc-ciSkZP hSvhzA"
-          >
-            Design Fonctionnel
-          </h3>
-          <p
-            className="sc-eKYRIR dJHtdu"
-          >
-            Un développeur n'est pas seulement un codeur. Ensemble, conceptualisons la meilleur application en fonction des réels besoins.
-          </p>
-        </div>
-      </article>
-      <article
-        className="sc-eCApnc jppa-DQ"
-      >
-        <div
-          className="sc-cxNHIi fAVimU"
-        >
-          <span
-            className="sc-bsatvv fEgCuu lnr lnr-sync"
-          />
-        </div>
-        <div
-          className="sc-cxNHIi"
-        >
-          <h3
-            className="sc-ciSkZP hSvhzA"
-          >
-            Intégration continue
-          </h3>
-          <p
-            className="sc-eKYRIR dJHtdu"
-          >
-            Un des grands principes de l'agilité, livrons notre application au fil du temps par petit bout de fonctionnalité et ainsi lui donner de la valeur rapidement.
-          </p>
-        </div>
-      </article>
-    </div>
-  </section>
-  <div
-    className="sc-cxNHIi hlhtIV"
-    id="profile"
-  >
-    <h2
-      className="sc-cBoqAE eiBWXX"
-    >
-      Profil
-    </h2>
-    <main
-      className="sc-oeezt iexnAr"
-    >
-      <article
-        className="sc-eCApnc eUMFVB"
-      >
-        <h3
-          className="sc-ciSkZP gpeMtY"
-        >
-          Expériences
-        </h3>
-        <section
-          className="sc-bXexck btRMDz"
-        >
+            Paul
+             
+            Couthouis
+          </h1>
           <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
+            className="sc-iIgjPs ercSyr"
           >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
+             
+            <p>
+              Bonjour et bienvenue !
+            </p>
+            <p>
+              Freelance depuis 2013, je suis un vrai passionné du développement. J'aime le travail bien fait et les applications abouties sans bug, ni dette techniques.
+            </p>
+            <p>
+              Si vous êtes à la recherche d'un développeur consciencieux, méthodique et toujours à l'écoute du client, n'hésitez pas à parcourir mon profil à travers ce site et pourquoi pas me contacter par e-mail. Bonne visite :)
+            </p>
+             
           </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Avr. 2021
-                </time>
-                 - 
-                <time>
-                  Actuel
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                BaseConnect
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Développeur Front-End
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Dans un environnement 100% japonais, je suis intégré à l'équipe front-end et je développe de nouvelles features pour l'application principale.
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Oct. 2019
-                </time>
-                 - 
-                <time>
-                  Mars 2021
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Osaka International School of Culture and Language
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Etudiant en japonais
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Coupure d'un an et demi pour apprendre sur la langue et la culture japonaise
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Nov. 2018
-                </time>
-                 - 
-                <time>
-                  Sep. 2019
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Effy
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Lead Développeur Front-End
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Lead Développeur Front dans une équipe de 4 développeurs, nous avons architecturé et développé diverses interfaces en collaboration avec l'équipe produit.
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Sep. 2017
-                </time>
-                 - 
-                <time>
-                  Oct. 2018
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Renault
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Développeur Front-End
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Intégré dans une équipe de l'entreprise, nous avons réalisé une nouvelleapplication au service de l'ingénierie Alliance (Renault-Nissan-Mitsubishi).
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Juin 2017
-                </time>
-                 - 
-                <time>
-                  Août 2017
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Holy-Dis
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Développeur Front-End
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Application consiste à faire de l'optimisation d'emploi du temps des employés en fonction d'un nombre important de paramètres.
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Mai 2016
-                </time>
-                 - 
-                <time>
-                  Mai 2017
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Eurosport
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Développeur Front-End
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Développement de deux projets internes à l'entreprise
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Fév. 2016
-                </time>
-                 - 
-                <time>
-                  Avr. 2016
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Attractive World
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Développeur Front-End
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Projet consistant à développer la nouvelle version du site principal qui abandonne sa version mobile pour un site entièrement responsive avec de nouvelles fonctionnalités.
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Fev. 2013
-                </time>
-                 - 
-                <time>
-                  Jan. 2016
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Divers
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Missions Freelances
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Missions exécutés pour les clients suivant : Symphony EYC, P Comme Performance, Air France, Equidia, L'Occitane, Ecocea, GS Activ
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Fev. 2012
-                </time>
-                 - 
-                <time>
-                  Jan. 2013
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Institu F2I
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                Formation Qualifiante (en alternance)
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Développement Et Design Web. J'étais également emloyé en contrat alternant pour l'entreprise P Comme Performance
-              </p>
-            </main>
-          </div>
-        </section>
-        <section
-          className="sc-bXexck btRMDz"
-        >
-          <div
-            className="sc-cxNHIi jGnmMk"
-            role="decoration"
-          >
-            <div
-              className="sc-cxNHIi ioFYxC"
-              role="decoration"
-            />
-          </div>
-          <div
-            className="sc-cxNHIi cXxdrC"
-          >
-            <header
-              className="sc-efHYUO jkoqbp"
-            >
-              <p
-                className="sc-eKYRIR bbdZXx"
-              >
-                <time>
-                  Sep. 2009
-                </time>
-                 - 
-                <time>
-                  Juin 2011
-                </time>
-              </p>
-              <p
-                className="sc-eKYRIR codCA-D"
-              >
-                Université Paris-Est Marne-la-Vallée
-              </p>
-            </header>
-            <main
-              className="sc-oeezt"
-            >
-              <header
-                className="sc-efHYUO jlruWt"
-              >
-                 
-                DUT Services Et Réseaux De Communication
-                 
-              </header>
-              <p
-                className="sc-eKYRIR gzqqNI"
-              >
-                Conception Et Développement Web. DUT ponctué par un stage de fin d'année de 3 mois chez Saft
-              </p>
-            </main>
-          </div>
-        </section>
-      </article>
-      <div
-        className="sc-cxNHIi fFMmbg"
-      >
-        <article
-          className="sc-eCApnc crRaXW"
-        >
-          <h3
-            className="sc-ciSkZP gpeMtY"
-          >
-            Langages
-          </h3>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                HTML / (S)CSS
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                95
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi fnjsyb"
-              />
-            </div>
-          </div>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                Javascript
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                90
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi hOauWK"
-              />
-            </div>
-          </div>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                Typescript
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                80
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi cgzjxP"
-              />
-            </div>
-          </div>
-        </article>
-        <article
-          className="sc-eCApnc crRaXW"
-        >
-          <h3
-            className="sc-ciSkZP gpeMtY"
-          >
-            Framework JS
-          </h3>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                Angular
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                90
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi hOauWK"
-              />
-            </div>
-          </div>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                React (+ Next)
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                70
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi jIRNo"
-              />
-            </div>
-          </div>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                Vue
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                50
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi kxSsyO"
-              />
-            </div>
-          </div>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                Svelte
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                50
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi kxSsyO"
-              />
-            </div>
-          </div>
-        </article>
-        <article
-          className="sc-eCApnc crRaXW"
-        >
-          <h3
-            className="sc-ciSkZP gpeMtY"
-          >
-            Autres librairies JS
-          </h3>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                Jest
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                90
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi hOauWK"
-              />
-            </div>
-          </div>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                RxJS
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                75
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi jA-dHKV"
-              />
-            </div>
-          </div>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                Cucumber
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                75
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi jA-dHKV"
-              />
-            </div>
-          </div>
-          <div
-            className="sc-cxNHIi kMVWSh"
-          >
-            <div
-              className="sc-cxNHIi egrhlE"
-            >
-              <p
-                className="sc-eKYRIR hmQIr"
-              >
-                Cypress
-              </p>
-              <p
-                className="sc-eKYRIR kXizaC"
-              >
-                75
-                %
-              </p>
-            </div>
-            <div
-              className="sc-cxNHIi geVump"
-            >
-              <div
-                className="sc-cxNHIi jA-dHKV"
-              />
-            </div>
-          </div>
-        </article>
-        <div
-          className="sc-cxNHIi cRiTtJ"
-        >
           <a
             className="sc-bdnxRM fpHZtF"
             href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
             target="_blank"
           >
-            Plus de détails sur mon CV
+            Télécharger mon CV
           </a>
         </div>
-      </div>
-    </main>
-  </div>
-  <address
-    className="sc-dlnjwi fdHlYq"
-    id="contact"
-  >
-    <h2
-      className="sc-cBoqAE eiBWXX"
+      </article>
+    </section>
+    <section
+      className="sc-bXexck bUZuQE"
+      id="method"
     >
-      Contact
-    </h2>
+      <h2
+        className="sc-cBoqAE eiBWXX"
+      >
+        Ma Méthodologie
+      </h2>
+      <div
+        className="sc-cxNHIi eiFhon"
+      >
+        <article
+          className="sc-eCApnc jppa-DQ"
+        >
+          <div
+            className="sc-cxNHIi fAVimU"
+          >
+            <span
+              className="sc-bsatvv fEgCuu lnr lnr-keyboard"
+            />
+          </div>
+          <div
+            className="sc-cxNHIi"
+          >
+            <h3
+              className="sc-ciSkZP hSvhzA"
+            >
+              Test-Driven Development
+            </h3>
+            <p
+              className="sc-eKYRIR dJHtdu"
+            >
+              Le TDD c'est la meilleur manière de produire du code sans dette, sans bug, avec un design optimisé et une couverture de test complète
+            </p>
+          </div>
+        </article>
+        <article
+          className="sc-eCApnc jppa-DQ"
+        >
+          <div
+            className="sc-cxNHIi fAVimU"
+          >
+            <span
+              className="sc-bsatvv fEgCuu lnr lnr-diamond"
+            />
+          </div>
+          <div
+            className="sc-cxNHIi"
+          >
+            <h3
+              className="sc-ciSkZP hSvhzA"
+            >
+              Hexagonal Architecture
+            </h3>
+            <p
+              className="sc-eKYRIR dJHtdu"
+            >
+              Pour un produit très peu dépendant des choix techniques, l'Hexagonal Architecture permet d'isoler le code métier, soit le coeur de votre application. C'est la garantie de faire évoluer votre produit dans le temps.
+            </p>
+          </div>
+        </article>
+        <article
+          className="sc-eCApnc jppa-DQ"
+        >
+          <div
+            className="sc-cxNHIi fAVimU"
+          >
+            <span
+              className="sc-bsatvv fEgCuu lnr lnr-bubble"
+            />
+          </div>
+          <div
+            className="sc-cxNHIi"
+          >
+            <h3
+              className="sc-ciSkZP hSvhzA"
+            >
+              Design Fonctionnel
+            </h3>
+            <p
+              className="sc-eKYRIR dJHtdu"
+            >
+              Un développeur n'est pas seulement un codeur. Ensemble, conceptualisons la meilleur application en fonction des réels besoins.
+            </p>
+          </div>
+        </article>
+        <article
+          className="sc-eCApnc jppa-DQ"
+        >
+          <div
+            className="sc-cxNHIi fAVimU"
+          >
+            <span
+              className="sc-bsatvv fEgCuu lnr lnr-sync"
+            />
+          </div>
+          <div
+            className="sc-cxNHIi"
+          >
+            <h3
+              className="sc-ciSkZP hSvhzA"
+            >
+              Intégration continue
+            </h3>
+            <p
+              className="sc-eKYRIR dJHtdu"
+            >
+              Un des grands principes de l'agilité, livrons notre application au fil du temps par petit bout de fonctionnalité et ainsi lui donner de la valeur rapidement.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
     <div
-      className="sc-cxNHIi lfKzke"
+      className="sc-cxNHIi hlhtIV"
+      id="profile"
     >
-      <div
-        className="sc-cxNHIi gGlrBh"
+      <h2
+        className="sc-cBoqAE eiBWXX"
       >
-        <span
-          className="sc-bsatvv fEgCuu lnr lnr-envelope"
-        />
-        <p
-          className="sc-eKYRIR fzCYPY"
-        >
-          paulcouthouis@gmail.com
-        </p>
-      </div>
-      <div
-        className="sc-cxNHIi gGlrBh"
+        Profil
+      </h2>
+      <main
+        className="sc-oeezt iexnAr"
       >
-        <span
-          className="sc-bsatvv fEgCuu lnr lnr-smartphone"
-        />
-        <p
-          className="sc-eKYRIR fzCYPY"
+        <article
+          className="sc-eCApnc eUMFVB"
         >
-          +81 80 7555 3894
-        </p>
-      </div>
-      <div
-        className="sc-cxNHIi gGlrBh"
-      >
-        <span
-          className="sc-bsatvv fEgCuu lnr lnr-map-marker"
-        />
-        <p
-          className="sc-eKYRIR fzCYPY"
+          <h3
+            className="sc-ciSkZP gpeMtY"
+          >
+            Expériences
+          </h3>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Avr. 2021
+                  </time>
+                   - 
+                  <time>
+                    Actuel
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  BaseConnect
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Développeur Front-End
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Dans un environnement 100% japonais, je suis intégré à l'équipe front-end et je développe de nouvelles features pour l'application principale.
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Oct. 2019
+                  </time>
+                   - 
+                  <time>
+                    Mars 2021
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Osaka International School of Culture and Language
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Etudiant en japonais
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Coupure d'un an et demi pour apprendre sur la langue et la culture japonaise
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Nov. 2018
+                  </time>
+                   - 
+                  <time>
+                    Sep. 2019
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Effy
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Lead Développeur Front-End
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Lead Développeur Front dans une équipe de 4 développeurs, nous avons architecturé et développé diverses interfaces en collaboration avec l'équipe produit.
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Sep. 2017
+                  </time>
+                   - 
+                  <time>
+                    Oct. 2018
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Renault
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Développeur Front-End
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Intégré dans une équipe de l'entreprise, nous avons réalisé une nouvelleapplication au service de l'ingénierie Alliance (Renault-Nissan-Mitsubishi).
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Juin 2017
+                  </time>
+                   - 
+                  <time>
+                    Août 2017
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Holy-Dis
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Développeur Front-End
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Application consiste à faire de l'optimisation d'emploi du temps des employés en fonction d'un nombre important de paramètres.
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Mai 2016
+                  </time>
+                   - 
+                  <time>
+                    Mai 2017
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Eurosport
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Développeur Front-End
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Développement de deux projets internes à l'entreprise
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Fév. 2016
+                  </time>
+                   - 
+                  <time>
+                    Avr. 2016
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Attractive World
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Développeur Front-End
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Projet consistant à développer la nouvelle version du site principal qui abandonne sa version mobile pour un site entièrement responsive avec de nouvelles fonctionnalités.
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Fev. 2013
+                  </time>
+                   - 
+                  <time>
+                    Jan. 2016
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Divers
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Missions Freelances
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Missions exécutés pour les clients suivant : Symphony EYC, P Comme Performance, Air France, Equidia, L'Occitane, Ecocea, GS Activ
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Fev. 2012
+                  </time>
+                   - 
+                  <time>
+                    Jan. 2013
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Institu F2I
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  Formation Qualifiante (en alternance)
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Développement Et Design Web. J'étais également emloyé en contrat alternant pour l'entreprise P Comme Performance
+                </p>
+              </main>
+            </div>
+          </section>
+          <section
+            className="sc-bXexck btRMDz"
+          >
+            <div
+              className="sc-cxNHIi jGnmMk"
+              role="decoration"
+            >
+              <div
+                className="sc-cxNHIi ioFYxC"
+                role="decoration"
+              />
+            </div>
+            <div
+              className="sc-cxNHIi cXxdrC"
+            >
+              <header
+                className="sc-efHYUO jkoqbp"
+              >
+                <p
+                  className="sc-eKYRIR bbdZXx"
+                >
+                  <time>
+                    Sep. 2009
+                  </time>
+                   - 
+                  <time>
+                    Juin 2011
+                  </time>
+                </p>
+                <p
+                  className="sc-eKYRIR codCA-D"
+                >
+                  Université Paris-Est Marne-la-Vallée
+                </p>
+              </header>
+              <main
+                className="sc-oeezt"
+              >
+                <header
+                  className="sc-efHYUO jlruWt"
+                >
+                   
+                  DUT Services Et Réseaux De Communication
+                   
+                </header>
+                <p
+                  className="sc-eKYRIR gzqqNI"
+                >
+                  Conception Et Développement Web. DUT ponctué par un stage de fin d'année de 3 mois chez Saft
+                </p>
+              </main>
+            </div>
+          </section>
+        </article>
+        <div
+          className="sc-cxNHIi fFMmbg"
         >
-          Kyoto
-        </p>
-      </div>
-      <div
-        className="sc-cxNHIi gGlrBh"
-      >
-        <span
-          className="sc-bsatvv fEgCuu lnr lnr-power-switch"
-        />
-        <p
-          className="sc-eKYRIR fzCYPY"
-        >
-          Disponible le 03/01/2022
-        </p>
-      </div>
+          <article
+            className="sc-eCApnc crRaXW"
+          >
+            <h3
+              className="sc-ciSkZP gpeMtY"
+            >
+              Langages
+            </h3>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  HTML / (S)CSS
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  95
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi fnjsyb"
+                />
+              </div>
+            </div>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  Javascript
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  90
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi hOauWK"
+                />
+              </div>
+            </div>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  Typescript
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  80
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi cgzjxP"
+                />
+              </div>
+            </div>
+          </article>
+          <article
+            className="sc-eCApnc crRaXW"
+          >
+            <h3
+              className="sc-ciSkZP gpeMtY"
+            >
+              Framework JS
+            </h3>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  Angular
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  90
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi hOauWK"
+                />
+              </div>
+            </div>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  React (+ Next)
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  70
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi jIRNo"
+                />
+              </div>
+            </div>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  Vue
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  50
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi kxSsyO"
+                />
+              </div>
+            </div>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  Svelte
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  50
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi kxSsyO"
+                />
+              </div>
+            </div>
+          </article>
+          <article
+            className="sc-eCApnc crRaXW"
+          >
+            <h3
+              className="sc-ciSkZP gpeMtY"
+            >
+              Autres librairies JS
+            </h3>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  Jest
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  90
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi hOauWK"
+                />
+              </div>
+            </div>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  RxJS
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  75
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi jA-dHKV"
+                />
+              </div>
+            </div>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  Cucumber
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  75
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi jA-dHKV"
+                />
+              </div>
+            </div>
+            <div
+              className="sc-cxNHIi kMVWSh"
+            >
+              <div
+                className="sc-cxNHIi egrhlE"
+              >
+                <p
+                  className="sc-eKYRIR hmQIr"
+                >
+                  Cypress
+                </p>
+                <p
+                  className="sc-eKYRIR kXizaC"
+                >
+                  75
+                  %
+                </p>
+              </div>
+              <div
+                className="sc-cxNHIi geVump"
+              >
+                <div
+                  className="sc-cxNHIi jA-dHKV"
+                />
+              </div>
+            </div>
+          </article>
+          <div
+            className="sc-cxNHIi cRiTtJ"
+          >
+            <a
+              className="sc-bdnxRM fpHZtF"
+              href="https://drive.google.com/file/d/1pJKHQ54QYnRS4p8uWf2LaOsALSNy3jFs/view?usp=sharing"
+              target="_blank"
+            >
+              Plus de détails sur mon CV
+            </a>
+          </div>
+        </div>
+      </main>
     </div>
-  </address>
+    <address
+      className="sc-dlnjwi fdHlYq"
+      id="contact"
+    >
+      <h2
+        className="sc-cBoqAE eiBWXX"
+      >
+        Contact
+      </h2>
+      <div
+        className="sc-cxNHIi lfKzke"
+      >
+        <div
+          className="sc-cxNHIi gGlrBh"
+        >
+          <span
+            className="sc-bsatvv fEgCuu lnr lnr-envelope"
+          />
+          <p
+            className="sc-eKYRIR fzCYPY"
+          >
+            paulcouthouis@gmail.com
+          </p>
+        </div>
+        <div
+          className="sc-cxNHIi gGlrBh"
+        >
+          <span
+            className="sc-bsatvv fEgCuu lnr lnr-smartphone"
+          />
+          <p
+            className="sc-eKYRIR fzCYPY"
+          >
+            +81 80 7555 3894
+          </p>
+        </div>
+        <div
+          className="sc-cxNHIi gGlrBh"
+        >
+          <span
+            className="sc-bsatvv fEgCuu lnr lnr-map-marker"
+          />
+          <p
+            className="sc-eKYRIR fzCYPY"
+          >
+            Kyoto
+          </p>
+        </div>
+        <div
+          className="sc-cxNHIi gGlrBh"
+        >
+          <span
+            className="sc-bsatvv fEgCuu lnr lnr-power-switch"
+          />
+          <p
+            className="sc-eKYRIR fzCYPY"
+          >
+            Disponible le 03/01/2022
+          </p>
+        </div>
+      </div>
+    </address>
+  </main>
 </div>
 `;

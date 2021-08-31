@@ -12,7 +12,7 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
       "baseUrl": "./packages",
-      "types": ["node", "jest"],
+      "types": ["node", "jest", "testing-library__jest-dom"],
       "typeRoots": [
         "node_modules/@types"
       ],
@@ -23,5 +23,5 @@
       "jsx": "react-jsx",
       "rootDir": "./packages"
     },
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules", "jest-setup.ts"]
   }

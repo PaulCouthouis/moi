@@ -2,16 +2,16 @@
 
 exports[`Menu should return menu for John Doe 1`] = `
 <nav
-  className="sc-fXazdy yzoqs"
+  className="sc-fXazdy fkcIu"
 >
   <header
-    className="sc-efHYUO oJklF"
+    className="sc-efHYUO kNNGAg"
   >
     <div
-      className="sc-cxNHIi eOsMzp"
+      className="sc-cxNHIi cAkVOz"
     >
       <div
-        className="sc-cxNHIi hXTGrf"
+        className="sc-cxNHIi cwurNK"
       >
         <div
           style={
@@ -110,7 +110,7 @@ exports[`Menu should return menu for John Doe 1`] = `
         </div>
       </div>
       <p
-        className="sc-eKYRIR eQxDBF"
+        className="sc-eKYRIR lhIHhI"
       >
         John Doe
       </p>
@@ -129,16 +129,16 @@ exports[`Menu should return menu for John Doe 1`] = `
 
 exports[`Menu should return menu for Paul Couthouis 1`] = `
 <nav
-  className="sc-fXazdy yzoqs"
+  className="sc-fXazdy fkcIu"
 >
   <header
-    className="sc-efHYUO oJklF"
+    className="sc-efHYUO kNNGAg"
   >
     <div
-      className="sc-cxNHIi eOsMzp"
+      className="sc-cxNHIi cAkVOz"
     >
       <div
-        className="sc-cxNHIi hXTGrf"
+        className="sc-cxNHIi cwurNK"
       >
         <div
           style={
@@ -237,7 +237,7 @@ exports[`Menu should return menu for Paul Couthouis 1`] = `
         </div>
       </div>
       <p
-        className="sc-eKYRIR eQxDBF"
+        className="sc-eKYRIR lhIHhI"
       >
         Paul Couthouis
       </p>

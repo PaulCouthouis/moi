@@ -27,6 +27,7 @@ function Home ({
   const { firstName, lastName, job } = mainInformation
   return (
     <x.div
+      display={{ lg: 'flex' }}
       bg='#000'
       color='#f5f5f5'
       fontFamily='Poppins, Helvetica, sans-serif'
@@ -38,15 +39,17 @@ function Home ({
       </Head>
 
       <Menu mainLabel={`${firstName} ${lastName}`} />
-      <x.section
-        display={{ sm: 'flex' }} bg='#333' maxHeight={{ lg: '450px', xl: '665px' }} marginTop='50px'
-      >
-        <ProfilePhoto />
-        <MainInformation mainInformation={mainInformation} />
-      </x.section>
-      <MethodsInformation methodsInformation={methodsInformation} />
-      <ResumeInformation experiences={experiences} technicalSkills={technicalSkills} />
-      <ContactInformation contactInformation={contactInformation} />
+      <x.main marginTop={{ _: '50px', lg: 0 }} marginLeft={{ lg: '180px' }}>
+        <x.section
+          display={{ sm: 'flex' }} bg='#333' maxHeight={{ lg: '450px', xl: '665px' }}
+        >
+          <ProfilePhoto />
+          <MainInformation mainInformation={mainInformation} />
+        </x.section>
+        <MethodsInformation methodsInformation={methodsInformation} />
+        <ResumeInformation experiences={experiences} technicalSkills={technicalSkills} />
+        <ContactInformation contactInformation={contactInformation} />
+      </x.main>
     </x.div>
   )
 }
